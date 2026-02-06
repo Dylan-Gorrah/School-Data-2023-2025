@@ -981,55 +981,7 @@
             </div>
         </div>
 
-        <!-- Faculty Overview -->
-        <div class="chart-section">
-            <div class="chart-header">
-                <h2 class="chart-title">
-                    Faculty Overview
-                </h2>
-                <p class="chart-subtitle">Staff numbers by category.</p>
-            </div>
-            
-            <div class="faculty-overview-block">
-                <div class="faculty-item">
-                    <div class="faculty-number">45</div>
-                    <div class="faculty-label">Total Staff</div>
-                    <div class="faculty-year">2025</div>
-                </div>
-                <div class="faculty-item">
-                    <div class="faculty-number">1</div>
-                    <div class="faculty-label">Principal</div>
-                    <div class="faculty-year">2025</div>
-                </div>
-                <div class="faculty-item">
-                    <div class="faculty-number">1</div>
-                    <div class="faculty-label">Deputy Principal</div>
-                    <div class="faculty-year">2025</div>
-                </div>
-                <div class="faculty-item">
-                    <div class="faculty-number">3</div>
-                    <div class="faculty-label">Department Heads</div>
-                    <div class="faculty-year">2025</div>
-                </div>
-                <div class="faculty-item">
-                    <div class="faculty-number">32</div>
-                    <div class="faculty-label">Teachers</div>
-                    <div class="faculty-year">2025</div>
-                </div>
-                <div class="faculty-item">
-                    <div class="faculty-number">5</div>
-                    <div class="faculty-label">Support Staff</div>
-                    <div class="faculty-year">2025</div>
-                </div>
-                <div class="faculty-item">
-                    <div class="faculty-number">3</div>
-                    <div class="faculty-label">Administrative Staff</div>
-                    <div class="faculty-year">2025</div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Faculty & Staff Overview -->
+        <!-- Faculty & Staff Information -->
         <div class="chart-section">
             <div class="chart-header">
                 <h2 class="chart-title">
@@ -1386,7 +1338,6 @@
 
         // Main update function
         function updateDashboard() {
-            updateFacultyOverview();
             updateStaffOverview();
             updateStats();
             updateEnrollmentChart();
@@ -1845,41 +1796,7 @@
             tbody.innerHTML = rows;
         }
 
-        // Update faculty overview
-        function updateFacultyOverview() {
-            const year = currentFilters.year !== 'all' ? currentFilters.year : '2025';
-            const staffData = subjectData?.staff_data?.[year] || {
-                total_staff: 45,
-                principal: 1,
-                deputy_principal: 1,
-                department_heads: 3,
-                teachers: 32,
-                support_staff: 5,
-                administrative_staff: 3
-            };
-            
-            // Update all faculty items
-            const facultyItems = document.querySelectorAll('.faculty-item');
-            facultyItems.forEach((item, index) => {
-                const category = ['total_staff', 'principal', 'deputy_principal', 'department_heads', 'teachers', 'support_staff', 'administrative_staff'][index];
-                const number = item.querySelector('.faculty-number');
-                const label = item.querySelector('.faculty-label');
-                const yearElement = item.querySelector('.faculty-year');
-                
-                if (number && label && yearElement) {
-                    number.textContent = staffData[category];
-                    label.textContent = category === 'total_staff' ? 'Total Staff' : 
-                                     category === 'principal' ? 'Principal' :
-                                     category === 'deputy_principal' ? 'Deputy Principal' :
-                                     category === 'department_heads' ? 'Department Heads' :
-                                     category === 'teachers' ? 'Teachers' :
-                                     category === 'support_staff' ? 'Support Staff' :
-                                     category === 'administrative_staff' ? 'Administrative Staff' : '';
-                    yearElement.textContent = year === 'all' ? 'All Years' : year;
-                }
-            });
-        }
-
+        
         // Update teachers overview
         function updateTeachersOverview() {
             const year = currentFilters.year !== 'all' ? currentFilters.year : '2025';
