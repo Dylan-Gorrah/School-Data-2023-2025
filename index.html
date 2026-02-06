@@ -609,6 +609,143 @@
             margin-bottom: 8px;
         }
 
+        /* Staff Overview Grid */
+        .staff-overview-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-top: 24px;
+        }
+
+        .staff-overview-card {
+            background: var(--white);
+            border: 2px solid var(--secondary-blue);
+            border-radius: 12px;
+            padding: 24px;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        .staff-overview-card:hover {
+            border-color: var(--primary-blue);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 191, 255, 0.15);
+        }
+
+        .staff-number {
+            font-size: 3rem;
+            font-weight: 700;
+            color: var(--primary-blue);
+            margin-bottom: 8px;
+        }
+
+        .staff-label {
+            font-size: 0.9rem;
+            color: var(--text-dark);
+            margin-bottom: 4px;
+        }
+
+        .staff-description {
+            font-size: 0.8rem;
+            color: var(--text-dark);
+            opacity: 0.7;
+        }
+
+        /* Teachers Overview Card */
+        .teachers-overview-card {
+            background: var(--white);
+            border: 2px solid var(--secondary-blue);
+            border-radius: 12px;
+            padding: 32px;
+            text-align: center;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 12px rgba(0, 191, 255, 0.1);
+        }
+
+        .teachers-overview-card:hover {
+            border-color: var(--primary-blue);
+            transform: translateY(-4px);
+            box-shadow: 0 8px 16px rgba(0, 191, 255, 0.2);
+        }
+
+        .teachers-number {
+            font-size: 4rem;
+            font-weight: 700;
+            color: var(--primary-blue);
+            margin-bottom: 12px;
+        }
+
+        /* Faculty Overview Card */
+        .faculty-overview-card {
+            background: var(--white);
+            border: 2px solid var(--secondary-blue);
+            border-radius: 12px;
+            padding: 20px;
+            text-align: center;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 12px rgba(0, 191, 255, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 16px;
+        }
+
+        .faculty-overview-card:hover {
+            border-color: var(--primary-blue);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 16px rgba(0, 191, 255, 0.2);
+        }
+
+        .faculty-number {
+            font-size: 3rem;
+            font-weight: 700;
+            color: var(--primary-blue);
+            margin-bottom: 8px;
+        }
+
+        .faculty-label {
+            font-size: 1rem;
+            color: var(--text-dark);
+            margin-bottom: 4px;
+        }
+
+        /* Faculty Overview Block */
+        .faculty-overview-block {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            background: var(--white);
+            border: 2px solid var(--secondary-blue);
+            border-radius: 12px;
+            padding: 24px;
+            box-shadow: 0 4px 12px rgba(0, 191, 255, 0.1);
+        }
+
+        .faculty-item {
+            background: rgba(0, 191, 255, 0.05);
+            border: 1px solid var(--secondary-blue);
+            border-radius: 8px;
+            padding: 16px;
+            text-align: center;
+            min-width: 120px;
+            flex: 1;
+            transition: all 0.3s ease;
+        }
+
+        .faculty-item:hover {
+            background: rgba(0, 191, 255, 0.1);
+            border-color: var(--primary-blue);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 191, 255, 0.2);
+        }
+
+        .teachers-label {
+            font-size: 1.1rem;
+            color: var(--text-dark);
+            margin-bottom: 8px;
+        }
+
         .kpi-label {
             font-size: 0.9rem;
             color: var(--text-dark);
@@ -844,6 +981,71 @@
             </div>
         </div>
 
+        <!-- Faculty Overview -->
+        <div class="chart-section">
+            <div class="chart-header">
+                <h2 class="chart-title">
+                    Faculty Overview
+                </h2>
+                <p class="chart-subtitle">Staff numbers by category.</p>
+            </div>
+            
+            <div class="faculty-overview-block">
+                <div class="faculty-item">
+                    <div class="faculty-number">45</div>
+                    <div class="faculty-label">Total Staff</div>
+                    <div class="faculty-year">2025</div>
+                </div>
+                <div class="faculty-item">
+                    <div class="faculty-number">1</div>
+                    <div class="faculty-label">Principal</div>
+                    <div class="faculty-year">2025</div>
+                </div>
+                <div class="faculty-item">
+                    <div class="faculty-number">1</div>
+                    <div class="faculty-label">Deputy Principal</div>
+                    <div class="faculty-year">2025</div>
+                </div>
+                <div class="faculty-item">
+                    <div class="faculty-number">3</div>
+                    <div class="faculty-label">Department Heads</div>
+                    <div class="faculty-year">2025</div>
+                </div>
+                <div class="faculty-item">
+                    <div class="faculty-number">32</div>
+                    <div class="faculty-label">Teachers</div>
+                    <div class="faculty-year">2025</div>
+                </div>
+                <div class="faculty-item">
+                    <div class="faculty-number">5</div>
+                    <div class="faculty-label">Support Staff</div>
+                    <div class="faculty-year">2025</div>
+                </div>
+                <div class="faculty-item">
+                    <div class="faculty-number">3</div>
+                    <div class="faculty-label">Administrative Staff</div>
+                    <div class="faculty-year">2025</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Faculty & Staff Overview -->
+        <div class="chart-section">
+            <div class="chart-header">
+                <h2 class="chart-title">
+                    <svg class="chart-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" style="width: 24px; height: 24px; margin-right: 8px; vertical-align: middle;">
+                        <path d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
+                    </svg>
+                    Faculty & Staff Overview
+                </h2>
+                <p class="chart-subtitle">Current faculty and staff numbers.</p>
+            </div>
+            
+            <div class="staff-overview-grid" id="staffOverviewGrid">
+                <!-- Staff numbers will be dynamically generated -->
+            </div>
+        </div>
+
         <!-- Key Stats -->
         <div class="stats-grid" id="statsGrid">
             <!-- Stats will be dynamically generated -->
@@ -858,7 +1060,7 @@
                 </svg>
                 Enrollment Trends
             </h2>
-                <p class="chart-subtitle">See how many students we have in each grade this year!</p>
+                <p class="chart-subtitle">Student enrollment distribution across grade levels.</p>
             </div>
             <div class="chart-container">
                 <canvas id="enrollmentChart"></canvas>
@@ -874,7 +1076,7 @@
                 </svg>
                 Student Pass Rates
             </h2>
-                <p class="chart-subtitle">Great job! Let's see how well our students are doing in each grade.</p>
+                <p class="chart-subtitle">Academic performance pass rates by grade.</p>
             </div>
             <div class="chart-container">
                 <canvas id="passRateChart"></canvas>
@@ -890,7 +1092,7 @@
                 </svg>
                 Quarterly Progress
             </h2>
-                <p class="chart-subtitle">Watch how our students improve from Term 1 to Term 4!</p>
+                <p class="chart-subtitle">Term-by-term academic performance comparison.</p>
             </div>
             <div class="chart-container">
                 <canvas id="quarterlyChart"></canvas>
@@ -907,7 +1109,7 @@
                 </svg>
                 Grade 9 Subject Performance
             </h2>
-                <p class="chart-subtitle">Our Grade 9 students are getting ready for high school! Let's see how they're doing.</p>
+                <p class="chart-subtitle">Grade 9 subject performance metrics.</p>
             </div>
             <div class="chart-container">
                 <canvas id="grade9SubjectsChart"></canvas>
@@ -924,7 +1126,7 @@
                 </svg>
                 Subject Performance Details
             </h2>
-                <p class="chart-subtitle">Let's celebrate our successes and see where we need extra help!</p>
+                <p class="chart-subtitle">Subject performance data with achievement distribution.</p>
             </div>
             <div class="subject-grid" id="subjectGrid">
                 <!-- Subject cards will be dynamically generated -->
@@ -940,7 +1142,7 @@
                 </svg>
                 Complete School Data Overview
             </h2>
-                <p class="chart-subtitle">All the numbers and details you need to know!</p>
+                <p class="chart-subtitle">Institutional performance data tables.</p>
             </div>
             
             <!-- Enrollment Data Table -->
@@ -1087,7 +1289,7 @@
                 </svg>
                 Key Performance Indicators
             </h2>
-                <p class="chart-subtitle">Important metrics that show how we're doing!</p>
+                <p class="chart-subtitle">Institutional performance indicators.</p>
             </div>
             
             <div class="kpi-grid" id="kpiGrid">
@@ -1184,6 +1386,8 @@
 
         // Main update function
         function updateDashboard() {
+            updateFacultyOverview();
+            updateStaffOverview();
             updateStats();
             updateEnrollmentChart();
             updatePassRateChart();
@@ -1639,6 +1843,84 @@
             }).join('');
             
             tbody.innerHTML = rows;
+        }
+
+        // Update faculty overview
+        function updateFacultyOverview() {
+            const year = currentFilters.year !== 'all' ? currentFilters.year : '2025';
+            const staffData = subjectData?.staff_data?.[year] || {
+                total_staff: 45,
+                principal: 1,
+                deputy_principal: 1,
+                department_heads: 3,
+                teachers: 32,
+                support_staff: 5,
+                administrative_staff: 3
+            };
+            
+            // Update all faculty items
+            const facultyItems = document.querySelectorAll('.faculty-item');
+            facultyItems.forEach((item, index) => {
+                const category = ['total_staff', 'principal', 'deputy_principal', 'department_heads', 'teachers', 'support_staff', 'administrative_staff'][index];
+                const number = item.querySelector('.faculty-number');
+                const label = item.querySelector('.faculty-label');
+                const yearElement = item.querySelector('.faculty-year');
+                
+                if (number && label && yearElement) {
+                    number.textContent = staffData[category];
+                    label.textContent = category === 'total_staff' ? 'Total Staff' : 
+                                     category === 'principal' ? 'Principal' :
+                                     category === 'deputy_principal' ? 'Deputy Principal' :
+                                     category === 'department_heads' ? 'Department Heads' :
+                                     category === 'teachers' ? 'Teachers' :
+                                     category === 'support_staff' ? 'Support Staff' :
+                                     category === 'administrative_staff' ? 'Administrative Staff' : '';
+                    yearElement.textContent = year === 'all' ? 'All Years' : year;
+                }
+            });
+        }
+
+        // Update teachers overview
+        function updateTeachersOverview() {
+            const year = currentFilters.year !== 'all' ? currentFilters.year : '2025';
+            const staffData = subjectData?.staff_data?.[year] || { teachers: 32 };
+            
+            const teachersCount = document.getElementById('teachersCount');
+            const teachersYear = document.getElementById('teachersYear');
+            
+            teachersCount.textContent = staffData.teachers;
+            teachersYear.textContent = year === 'all' ? 'All Years' : `Academic Year ${year}`;
+        }
+
+        // Update staff overview
+        function updateStaffOverview() {
+            const grid = document.getElementById('staffOverviewGrid');
+            const year = currentFilters.year !== 'all' ? currentFilters.year : '2025';
+            const staffData = subjectData?.staff_data?.[year] || {
+                total_staff: 45,
+                principal: 1,
+                deputy_principal: 1,
+                department_heads: 3,
+                support_staff: 5,
+                administrative_staff: 3
+            };
+            
+            const staffCategories = [
+                { key: 'total_staff', label: 'Total Staff Members', icon: '👥' },
+                { key: 'principal', label: 'Principal', icon: '👨‍🎓' },
+                { key: 'deputy_principal', label: 'Deputy Principal', icon: '👨‍🏫' },
+                { key: 'department_heads', label: 'Department Heads', icon: '👨‍💼' },
+                { key: 'support_staff', label: 'Support Staff', icon: '👷‍🔧' },
+                { key: 'administrative_staff', label: 'Administrative Staff', icon: '👥‍💼' }
+            ];
+            
+            grid.innerHTML = staffCategories.map(category => `
+                <div class="staff-overview-card">
+                    <div class="staff-number">${category.icon} ${staffData[category.key]}</div>
+                    <div class="staff-label">${category.label}</div>
+                    <div class="staff-description">${year === 'all' ? 'All Years' : `Academic Year ${year}`}</div>
+                </div>
+            `).join('');
         }
 
         // Update staff table
