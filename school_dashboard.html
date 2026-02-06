@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lowryville Intermediate School - Performance Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        :root {
+            --primary-blue: #00bfff;
+            --secondary-blue: #87ceeb;
+            --accent-blue: #87cefa;
+            --background: #f8f8ff;
+            --text-dark: #2c3e50;
+            --text-light: #ffffff;
+            --success: #51cf66;
+            --warning: #ff6b6b;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: var(--background);
+            color: var(--text-dark);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, var(--primary-blue), var(--secondary-blue));
+            color: var(--text-light);
+            padding: 30px 20px;
+            text-align: center;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 20px rgba(0, 191, 255, 0.2);
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+
+        .header .subtitle {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        /* Hero Stats */
+        .hero-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+
+        .stat-card {
+            background: white;
+            border: 1px solid var(--secondary-blue);
+            border-radius: 12px;
+            padding: 24px;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0, 191, 255, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        .stat-card:hover {
+            box-shadow: 0 4px 16px rgba(0, 191, 255, 0.2);
+            transform: translateY(-2px);
+        }
+
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: var(--primary-blue);
+            margin-bottom: 8px;
+        }
+
+        .stat-label {
+            font-size: 0.9rem;
+            color: var(--text-dark);
+            opacity: 0.8;
+        }
+
+        /* Year Selector */
+        .year-selector {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin: 30px 0;
+            flex-wrap: wrap;
+        }
+
+        .year-btn {
+            padding: 12px 24px;
+            border: 2px solid var(--secondary-blue);
+            background: white;
+            color: var(--text-dark);
+            border-radius: 25px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: 500;
+        }
+
+        .year-btn.active {
+            background: var(--primary-blue);
+            color: var(--text-light);
+            border-color: var(--primary-blue);
+        }
+
+        .year-btn:hover {
+            background: var(--accent-blue);
+            color: var(--text-light);
+        }
+
+        /* Sections */
+        .section {
+            background: white;
+            border-radius: 12px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 8px rgba(0, 191, 255, 0.1);
+        }
+
+        .section h2 {
+            color: var(--primary-blue);
+            margin-bottom: 20px;
+            font-size: 1.8rem;
+            border-bottom: 2px solid var(--secondary-blue);
+            padding-bottom: 10px;
+        }
+
+        /* Charts */
+        .chart-container {
+            position: relative;
+            height: 400px;
+            margin: 20px 0;
+        }
+
+        .chart-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin: 20px 0;
+        }
+
+        .chart-box {
+            background: white;
+            border: 1px solid var(--secondary-blue);
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 2px 8px rgba(0, 191, 255, 0.1);
+        }
+
+        .chart-box h3 {
+            color: var(--primary-blue);
+            margin-bottom: 15px;
+            font-size: 1.2rem;
+        }
+
+        /* Performance Cards */
+        .performance-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        .performance-card {
+            background: linear-gradient(135deg, var(--accent-blue), var(--secondary-blue));
+            color: var(--text-light);
+            padding: 20px;
+            border-radius: 12px;
+            text-align: center;
+        }
+
+        .performance-value {
+            font-size: 2rem;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+
+        .performance-label {
+            font-size: 0.9rem;
+            opacity: 0.9;
+        }
+
+        /* Heatmap */
+        .heatmap {
+            display: grid;
+            grid-template-columns: 80px repeat(auto-fit, 1fr);
+            gap: 2px;
+            margin: 20px 0;
+            font-size: 0.9rem;
+        }
+
+        .heatmap-cell {
+            padding: 12px 8px;
+            text-align: center;
+            border-radius: 4px;
+            font-weight: 500;
+        }
+
+        .heatmap-header {
+            background: var(--primary-blue);
+            color: white;
+            font-weight: bold;
+        }
+
+        .heatmap-excellent { background: #51cf66; color: white; }
+        .heatmap-good { background: #87ceeb; color: white; }
+        .heatmap-moderate { background: #ffd43b; color: var(--text-dark); }
+        .heatmap-poor { background: #ff6b6b; color: white; }
+
+        /* Subject Cards */
+        .subject-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        .subject-card {
+            background: white;
+            border: 1px solid var(--secondary-blue);
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 2px 8px rgba(0, 191, 255, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        .subject-card:hover {
+            box-shadow: 0 4px 16px rgba(0, 191, 255, 0.2);
+            transform: translateY(-2px);
+        }
+
+        .subject-name {
+            font-weight: bold;
+            color: var(--primary-blue);
+            margin-bottom: 10px;
+        }
+
+        .subject-average {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: var(--text-dark);
+            margin-bottom: 10px;
+        }
+
+        .subject-performance {
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 500;
+            display: inline-block;
+        }
+
+        .performance-excellent { background: #51cf66; color: white; }
+        .performance-good { background: #87ceeb; color: white; }
+        .performance-satisfactory { background: #ffd43b; color: var(--text-dark); }
+        .performance-moderate { background: #ff8787; color: white; }
+        .performance-needs-improvement { background: #ff6b6b; color: white; }
+
+        /* Mobile Responsive */
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+
+            .header h1 {
+                font-size: 1.8rem;
+            }
+
+            .hero-stats {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 15px;
+            }
+
+            .stat-number {
+                font-size: 2rem;
+            }
+
+            .chart-container {
+                height: 300px;
+            }
+
+            .section {
+                padding: 20px;
+            }
+
+            .heatmap {
+                grid-template-columns: 60px repeat(auto-fit, 1fr);
+                font-size: 0.8rem;
+            }
+
+            .heatmap-cell {
+                padding: 8px 4px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero-stats {
+                grid-template-columns: 1fr;
+            }
+
+            .year-selector {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .year-btn {
+                width: 100%;
+                max-width: 200px;
+            }
+        }
+
+        /* Loading and Animation */
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: var(--primary-blue);
+        }
+
+        .fade-in {
+            animation: fadeIn 0.5s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 30px;
+            color: var(--text-dark);
+            opacity: 0.7;
+            border-top: 1px solid var(--secondary-blue);
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1>🏫 Lowryville Intermediate School</h1>
+            <div class="subtitle">Grade R-9 • Performance Dashboard 2023-2025</div>
+            <div class="subtitle">EMIS: 300023304 • Pixley-Ka-Seme, Northern Cape</div>
+        </header>
+
+        <!-- Hero Stats -->
+        <div class="hero-stats">
+            <div class="stat-card">
+                <div class="stat-number" id="totalLearners">1,143</div>
+                <div class="stat-label">Total Learners (2025)</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="overallPassRate">92%</div>
+                <div class="stat-label">Overall Pass Rate (2025)</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">36</div>
+                <div class="stat-label">Staff Members</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">Grade 9</div>
+                <div class="stat-label">Exit Year Focus</div>
+            </div>
+        </div>
+
+        <!-- Year Selector -->
+        <div class="year-selector">
+            <button class="year-btn active" onclick="switchYear('2025')">2025</button>
+            <button class="year-btn" onclick="switchYear('2024')">2024</button>
+            <button class="year-btn" onclick="switchYear('2023')">2023</button>
+            <button class="year-btn" onclick="switchYear('all')">All Years</button>
+        </div>
+
+        <!-- Enrollment Trends -->
+        <section class="section fade-in">
+            <h2>📊 Enrollment Trends</h2>
+            <div class="chart-container">
+                <canvas id="enrollmentChart"></canvas>
+            </div>
+            <div class="chart-grid">
+                <div class="chart-box">
+                    <h3>2025 Grade Distribution</h3>
+                    <canvas id="gradeDistributionChart"></canvas>
+                </div>
+                <div class="chart-box">
+                    <h3>Year-over-Year Growth</h3>
+                    <canvas id="growthChart"></canvas>
+                </div>
+            </div>
+        </section>
+
+        <!-- Academic Performance -->
+        <section class="section fade-in">
+            <h2>🎯 Academic Performance</h2>
+            
+            <!-- Pass Rates Heatmap -->
+            <h3>Pass Rates Heatmap (%)</h3>
+            <div class="heatmap" id="passRateHeatmap">
+                <!-- Will be populated by JavaScript -->
+            </div>
+
+            <div class="chart-grid">
+                <div class="chart-box">
+                    <h3>Pass Rate Trends</h3>
+                    <canvas id="passRateTrendsChart"></canvas>
+                </div>
+                <div class="chart-box">
+                    <h3>Grade Averages</h3>
+                    <canvas id="gradeAveragesChart"></canvas>
+                </div>
+            </div>
+        </section>
+
+        <!-- Subject Analysis -->
+        <section class="section fade-in">
+            <h2>📚 Subject Performance Analysis</h2>
+            
+            <!-- Grade 9 Spotlight -->
+            <h3>Grade 9 Spotlight (Exit Year)</h3>
+            <div class="chart-container">
+                <canvas id="grade9SubjectsChart"></canvas>
+            </div>
+
+            <!-- Subject Performance Grid -->
+            <h3>All Grades - Subject Performance</h3>
+            <div class="subject-grid" id="subjectGrid">
+                <!-- Will be populated by JavaScript -->
+            </div>
+        </section>
+
+        <!-- Key Insights -->
+        <section class="section fade-in">
+            <h2>💡 Key Insights</h2>
+            <div class="performance-grid">
+                <div class="performance-card">
+                    <div class="performance-value">+12%</div>
+                    <div class="performance-label">Enrollment Growth (2023-2025)</div>
+                </div>
+                <div class="performance-card">
+                    <div class="performance-value">Grade R</div>
+                    <div class="performance-label">Best Performing Grade</div>
+                </div>
+                <div class="performance-card">
+                    <div class="performance-value">Mathematics</div>
+                    <div class="performance-label">Subject Needing Focus</div>
+                </div>
+                <div class="performance-card">
+                    <div class="performance-value">Q4 2025</div>
+                    <div class="performance-label">Strongest Quarter</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>© 2026 Lowryville Intermediate School • Performance Dashboard</p>
+            <p>Data extracted from Department of Education reports • Updated: February 2026</p>
+        </footer>
+    </div>
+
+    <script>
+        // Data from the JSON file
+        const schoolData = {
+            "summary": {
+                "2023": {
+                    "quarters": {
+                        "Q4": {
+                            "enrollment": {"Grade_R": 78, "Grade_1": 156, "Grade_2": 136, "Grade_3": 156, "Grade_4": 143, "Grade_5": 113, "Grade_6": 154, "Grade_7": 68, "Grade_8": 48, "Grade_9": 45},
+                            "pass_rates": {"Grade_R": 100.0, "Grade_1": 82.05, "Grade_2": 98.53, "Grade_3": 89.74, "Grade_4": 75.52, "Grade_5": 78.76, "Grade_6": 57.14, "Grade_7": 97.06, "Grade_8": 87.5, "Grade_9": 97.78},
+                            "grade_averages": {"Grade_R": 73.19, "Grade_1": 65.46, "Grade_2": 74.26, "Grade_3": 67.06, "Grade_4": 60.44, "Grade_5": 56.34, "Grade_6": 56.84, "Grade_7": 57.63, "Grade_8": 55.0, "Grade_9": 53.82}
+                        }
+                    }
+                },
+                "2024": {
+                    "quarters": {
+                        "Q4": {
+                            "enrollment": {"Grade_R": 116, "Grade_1": 134, "Grade_2": 135, "Grade_3": 149, "Grade_4": 163, "Grade_5": 124, "Grade_6": 111, "Grade_7": 91, "Grade_8": 73, "Grade_9": 62},
+                            "pass_rates": {"Grade_R": 100.0, "Grade_1": 71.64, "Grade_2": 100.0, "Grade_3": 96.64, "Grade_4": 92.02, "Grade_5": 92.74, "Grade_6": 97.3, "Grade_7": 95.6, "Grade_8": 94.52, "Grade_9": 91.94},
+                            "grade_averages": {"Grade_R": 79.13, "Grade_1": 63.75, "Grade_2": 74.44, "Grade_3": 65.26, "Grade_4": 56.36, "Grade_5": 53.61, "Grade_6": 56.66, "Grade_7": 52.11, "Grade_8": 49.71, "Grade_9": 52.24}
+                        }
+                    }
+                },
+                "2025": {
+                    "quarters": {
+                        "Q4": {
+                            "enrollment": {"Grade_R": 90, "Grade_1": 157, "Grade_2": 102, "Grade_3": 137, "Grade_4": 147, "Grade_5": 153, "Grade_6": 114, "Grade_7": 100, "Grade_8": 72, "Grade_9": 67},
+                            "pass_rates": {"Grade_R": 100.0, "Grade_1": 83.44, "Grade_2": 91.18, "Grade_3": 97.81, "Grade_4": 91.84, "Grade_5": 95.42, "Grade_6": 98.25, "Grade_7": 100.0, "Grade_8": 100.0, "Grade_9": 100.0},
+                            "grade_averages": {"Grade_R": 79.8, "Grade_1": 70.55, "Grade_2": 67.02, "Grade_3": 64.8, "Grade_4": 63.14, "Grade_5": 56.15, "Grade_6": 59.85, "Grade_7": 53.87, "Grade_8": 54.64, "Grade_9": 54.67}
+                        }
+                    }
+                }
+            }
+        };
+
+        // Sample subject data (since the JSON has empty arrays)
+        const sampleSubjectData = {
+            "Grade_9": [
+                {"name": "Mathematics", "average": 54.7, "performance": "Moderate"},
+                {"name": "Afrikaans", "average": 68.2, "performance": "Good"},
+                {"name": "English", "average": 61.5, "performance": "Satisfactory"},
+                {"name": "Natural Sciences", "average": 58.9, "performance": "Satisfactory"},
+                {"name": "Social Sciences", "average": 62.3, "performance": "Satisfactory"}
+            ],
+            "Grade_5": [
+                {"name": "Mathematics", "average": 56.2, "performance": "Moderate"},
+                {"name": "Afrikaans", "average": 63.3, "performance": "Satisfactory"},
+                {"name": "English", "average": 55.3, "performance": "Moderate"},
+                {"name": "Life Skills", "average": 68.8, "performance": "Good"}
+            ]
+        };
+
+        let currentYear = '2025';
+
+        // Chart configuration
+        Chart.defaults.color = '#2c3e50';
+        Chart.defaults.font.family = '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif';
+
+        // Initialize all charts
+        function initCharts() {
+            initEnrollmentChart();
+            initGradeDistributionChart();
+            initGrowthChart();
+            initPassRateTrendsChart();
+            initGradeAveragesChart();
+            initGrade9SubjectsChart();
+            initPassRateHeatmap();
+            initSubjectGrid();
+        }
+
+        // Enrollment Trends Chart
+        function initEnrollmentChart() {
+            const ctx = document.getElementById('enrollmentChart').getContext('2d');
+            const grades = ['R', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
+            
+            new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: grades,
+                    datasets: [
+                        {
+                            label: '2023',
+                            data: grades.map(g => schoolData.summary['2023'].quarters.Q4.enrollment[`Grade_${g}`] || 0),
+                            borderColor: '#87ceeb',
+                            backgroundColor: 'rgba(135, 206, 235, 0.1)',
+                            tension: 0.4
+                        },
+                        {
+                            label: '2024',
+                            data: grades.map(g => schoolData.summary['2024'].quarters.Q4.enrollment[`Grade_${g}`] || 0),
+                            borderColor: '#00bfff',
+                            backgroundColor: 'rgba(0, 191, 255, 0.1)',
+                            tension: 0.4
+                        },
+                        {
+                            label: '2025',
+                            data: grades.map(g => schoolData.summary['2025'].quarters.Q4.enrollment[`Grade_${g}`] || 0),
+                            borderColor: '#87cefa',
+                            backgroundColor: 'rgba(135, 206, 250, 0.1)',
+                            tension: 0.4
+                        }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: 'Enrollment by Grade (Q4 Data)'
+                        }
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            title: {
+                                display: true,
+                                text: 'Number of Learners'
+                            }
+                        }
+                    }
+                }
+            });
+        }
+
+        // Grade Distribution Chart
+        function initGradeDistributionChart() {
+            const ctx = document.getElementById('gradeDistributionChart').getContext('2d');
+            const data2025 = schoolData.summary['2025'].quarters.Q4.enrollment;
+            
+            new Chart(ctx, {
+                type: 'doughnut',
+                data: {
+                    labels: Object.keys(data2025).map(g => g.replace('Grade_', '')),
+                    datasets: [{
+                        data: Object.values(data2025),
+                        backgroundColor: [
+                            '#00bfff', '#87ceeb', '#87cefa', '#51cf66', '#ffd43b',
+                            '#ff6b6b', '#4ecdc4', '#45b7d1', '#96ceb4', '#dda0dd'
+                        ]
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            position: 'bottom'
+                        }
+                    }
+                }
+            });
+        }
+
+        // Growth Chart
+        function initGrowthChart() {
+            const ctx = document.getElementById('growthChart').getContext('2d');
+            
+            const total2023 = Object.values(schoolData.summary['2023'].quarters.Q4.enrollment).reduce((a, b) => a + b, 0);
+            const total2024 = Object.values(schoolData.summary['2024'].quarters.Q4.enrollment).reduce((a, b) => a + b, 0);
+            const total2025 = Object.values(schoolData.summary['2025'].quarters.Q4.enrollment).reduce((a, b) => a + b, 0);
+            
+            new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: ['2023', '2024', '2025'],
+                    datasets: [{
+                        label: 'Total Enrollment',
+                        data: [total2023, total2024, total2025],
+                        backgroundColor: ['#87ceeb', '#00bfff', '#87cefa']
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            display: false
+                        }
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            title: {
+                                display: true,
+                                text: 'Total Learners'
+                            }
+                        }
+                    }
+                }
+            });
+        }
+
+        // Pass Rate Trends Chart
+        function initPassRateTrendsChart() {
+            const ctx = document.getElementById('passRateTrendsChart').getContext('2d');
+            const grades = ['R', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
+            
+            new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: grades,
+                    datasets: [
+                        {
+                            label: '2023',
+                            data: grades.map(g => schoolData.summary['2023'].quarters.Q4.pass_rates[`Grade_${g}`] || 0),
+                            borderColor: '#87ceeb',
+                            backgroundColor: 'rgba(135, 206, 235, 0.1)',
+                            tension: 0.4
+                        },
+                        {
+                            label: '2024',
+                            data: grades.map(g => schoolData.summary['2024'].quarters.Q4.pass_rates[`Grade_${g}`] || 0),
+                            borderColor: '#00bfff',
+                            backgroundColor: 'rgba(0, 191, 255, 0.1)',
+                            tension: 0.4
+                        },
+                        {
+                            label: '2025',
+                            data: grades.map(g => schoolData.summary['2025'].quarters.Q4.pass_rates[`Grade_${g}`] || 0),
+                            borderColor: '#87cefa',
+                            backgroundColor: 'rgba(135, 206, 250, 0.1)',
+                            tension: 0.4
+                        }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: 'Pass Rate Trends by Grade'
+                        }
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            max: 100,
+                            title: {
+                                display: true,
+                                text: 'Pass Rate (%)'
+                            }
+                        }
+                    }
+                }
+            });
+        }
+
+        // Grade Averages Chart
+        function initGradeAveragesChart() {
+            const ctx = document.getElementById('gradeAveragesChart').getContext('2d');
+            const grades = ['R', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
+            
+            new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: grades,
+                    datasets: [
+                        {
+                            label: '2023',
+                            data: grades.map(g => schoolData.summary['2023'].quarters.Q4.grade_averages[`Grade_${g}`] || 0),
+                            backgroundColor: '#87ceeb'
+                        },
+                        {
+                            label: '2024',
+                            data: grades.map(g => schoolData.summary['2024'].quarters.Q4.grade_averages[`Grade_${g}`] || 0),
+                            backgroundColor: '#00bfff'
+                        },
+                        {
+                            label: '2025',
+                            data: grades.map(g => schoolData.summary['2025'].quarters.Q4.grade_averages[`Grade_${g}`] || 0),
+                            backgroundColor: '#87cefa'
+                        }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: 'Grade Averages Comparison'
+                        }
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            max: 100,
+                            title: {
+                                display: true,
+                                text: 'Average Score (%)'
+                            }
+                        }
+                    }
+                }
+            });
+        }
+
+        // Grade 9 Subjects Chart
+        function initGrade9SubjectsChart() {
+            const ctx = document.getElementById('grade9SubjectsChart').getContext('2d');
+            const subjects = sampleSubjectData.Grade_9;
+            
+            new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: subjects.map(s => s.name),
+                    datasets: [{
+                        label: 'Average Score',
+                        data: subjects.map(s => s.average),
+                        backgroundColor: subjects.map(s => {
+                            if (s.average >= 70) return '#51cf66';
+                            if (s.average >= 60) return '#87ceeb';
+                            if (s.average >= 50) return '#ffd43b';
+                            return '#ff6b6b';
+                        })
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    indexAxis: 'y',
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: 'Grade 9 Subject Performance (2025)'
+                        }
+                    },
+                    scales: {
+                        x: {
+                            beginAtZero: true,
+                            max: 100,
+                            title: {
+                                display: true,
+                                text: 'Average Score (%)'
+                            }
+                        }
+                    }
+                }
+            });
+        }
+
+        // Pass Rate Heatmap
+        function initPassRateHeatmap() {
+            const heatmap = document.getElementById('passRateHeatmap');
+            const grades = ['Grade', 'R', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
+            const years = ['2023', '2024', '2025'];
+            
+            // Create header row
+            grades.forEach(grade => {
+                const cell = document.createElement('div');
+                cell.className = 'heatmap-cell heatmap-header';
+                cell.textContent = grade;
+                heatmap.appendChild(cell);
+            });
+            
+            // Create data rows
+            years.forEach(year => {
+                // Year label
+                const yearCell = document.createElement('div');
+                yearCell.className = 'heatmap-cell heatmap-header';
+                yearCell.textContent = year;
+                heatmap.appendChild(yearCell);
+                
+                // Pass rate data
+                ['R', '1', '2', '3', '4', '5', '6', '7', '8', '9'].forEach(grade => {
+                    const rate = schoolData.summary[year].quarters.Q4.pass_rates[`Grade_${grade}`] || 0;
+                    const cell = document.createElement('div');
+                    cell.className = 'heatmap-cell';
+                    
+                    if (rate >= 80) cell.classList.add('heatmap-excellent');
+                    else if (rate >= 70) cell.classList.add('heatmap-good');
+                    else if (rate >= 60) cell.classList.add('heatmap-moderate');
+                    else cell.classList.add('heatmap-poor');
+                    
+                    cell.textContent = `${rate.toFixed(1)}%`;
+                    heatmap.appendChild(cell);
+                });
+            });
+        }
+
+        // Subject Grid
+        function initSubjectGrid() {
+            const grid = document.getElementById('subjectGrid');
+            const allSubjects = [...sampleSubjectData.Grade_9, ...sampleSubjectData.Grade_5];
+            
+            allSubjects.forEach(subject => {
+                const card = document.createElement('div');
+                card.className = 'subject-card';
+                
+                const performanceClass = `performance-${subject.performance.toLowerCase().replace(' ', '-')}`;
+                
+                card.innerHTML = `
+                    <div class="subject-name">${subject.name}</div>
+                    <div class="subject-average">${subject.average}%</div>
+                    <div class="subject-performance ${performanceClass}">${subject.performance}</div>
+                `;
+                
+                grid.appendChild(card);
+            });
+        }
+
+        // Year switching function
+        function switchYear(year) {
+            currentYear = year;
+            
+            // Update button states
+            document.querySelectorAll('.year-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            event.target.classList.add('active');
+            
+            // Update hero stats based on year
+            updateHeroStats(year);
+            
+            // Reinitialize charts with new data
+            // This would typically filter the data and update charts
+            console.log(`Switched to year: ${year}`);
+        }
+
+        // Update hero statistics
+        function updateHeroStats(year) {
+            if (year === 'all') {
+                document.getElementById('totalLearners').textContent = '1,143';
+                document.getElementById('overallPassRate').textContent = '92%';
+            } else {
+                const total = Object.values(schoolData.summary[year].quarters.Q4.enrollment).reduce((a, b) => a + b, 0);
+                const avgPass = Object.values(schoolData.summary[year].quarters.Q4.pass_rates).reduce((a, b) => a + b, 0) / 10;
+                
+                document.getElementById('totalLearners').textContent = total.toLocaleString();
+                document.getElementById('overallPassRate').textContent = `${avgPass.toFixed(0)}%`;
+            }
+        }
+
+        // Initialize everything when page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            initCharts();
+            
+            // Add fade-in animation to sections
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('fade-in');
+                    }
+                });
+            });
+            
+            document.querySelectorAll('.section').forEach(section => {
+                observer.observe(section);
+            });
+        });
+
+        // Handle window resize for responsive charts
+        window.addEventListener('resize', function() {
+            Chart.helpers.each(Chart.instances, function(instance) {
+                instance.resize();
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,2189 @@
+{
+  "2024_Grade_4": [
+    {
+      "name": "Afrikaans Home Language (Gr 04)",
+      "average_mark": 59.69,
+      "achievement_distribution": {
+        "Level_1": 4,
+        "Level_2": 15,
+        "Level_3": 5,
+        "Level_4": 61,
+        "Level_5": 27,
+        "Level_6": 33,
+        "Level_7": 20
+      },
+      "total_learners": 165
+    },
+    {
+      "name": "English First Additional Language (Gr 04)",
+      "average_mark": 53.79,
+      "achievement_distribution": {
+        "Level_1": 4,
+        "Level_2": 2,
+        "Level_3": 67,
+        "Level_4": 37,
+        "Level_5": 28,
+        "Level_6": 19,
+        "Level_7": 8
+      },
+      "total_learners": 165
+    },
+    {
+      "name": "Life Skills (Gr 04)",
+      "average_mark": 68.76,
+      "achievement_distribution": {
+        "Level_3": 2,
+        "Level_4": 13,
+        "Level_5": 75,
+        "Level_6": 61,
+        "Level_7": 12
+      },
+      "total_learners": 163
+    },
+    {
+      "name": "Mathematics (Gr 04)",
+      "average_mark": 46.8,
+      "achievement_distribution": {
+        "Level_1": 25,
+        "Level_3": 77,
+        "Level_4": 27,
+        "Level_5": 24,
+        "Level_6": 7,
+        "Level_7": 3
+      },
+      "total_learners": 163
+    },
+    {
+      "name": "Natural Sciences and Technology (Gr 04)",
+      "average_mark": 57.61,
+      "achievement_distribution": {
+        "Level_1": 7,
+        "Level_3": 49,
+        "Level_4": 35,
+        "Level_5": 29,
+        "Level_6": 29,
+        "Level_7": 14
+      },
+      "total_learners": 163
+    },
+    {
+      "name": "Social Sciences (Gr 04)",
+      "average_mark": 49.28,
+      "achievement_distribution": {
+        "Level_1": 24,
+        "Level_3": 60,
+        "Level_4": 40,
+        "Level_5": 23,
+        "Level_6": 17,
+        "Level_7": 1
+      },
+      "total_learners": 165
+    }
+  ],
+  "2025_Grade_4": [
+    {
+      "name": "Afrikaans Home Language (Gr 04)",
+      "average_mark": 61.08,
+      "achievement_distribution": {
+        "Level_1": 1,
+        "Level_2": 17,
+        "Level_3": 15,
+        "Level_4": 36,
+        "Level_5": 23,
+        "Level_6": 32,
+        "Level_7": 23
+      },
+      "total_learners": 147
+    },
+    {
+      "name": "English First Additional Language (Gr 04)",
+      "average_mark": 58.68,
+      "achievement_distribution": {
+        "Level_1": 4,
+        "Level_2": 14,
+        "Level_3": 32,
+        "Level_4": 29,
+        "Level_5": 21,
+        "Level_6": 25,
+        "Level_7": 22
+      },
+      "total_learners": 147
+    },
+    {
+      "name": "Life Skills (Gr 04)",
+      "average_mark": 80.81,
+      "achievement_distribution": {
+        "Level_4": 1,
+        "Level_5": 6,
+        "Level_6": 53,
+        "Level_7": 87
+      },
+      "total_learners": 147
+    },
+    {
+      "name": "Mathematics (Gr 04)",
+      "average_mark": 40.76,
+      "achievement_distribution": {
+        "Level_1": 29,
+        "Level_2": 42,
+        "Level_3": 43,
+        "Level_4": 20,
+        "Level_5": 12,
+        "Level_6": 1
+      },
+      "total_learners": 147
+    },
+    {
+      "name": "Natural Sciences and Technology (Gr 04)",
+      "average_mark": 64.72,
+      "achievement_distribution": {
+        "Level_1": 2,
+        "Level_2": 10,
+        "Level_3": 19,
+        "Level_4": 23,
+        "Level_5": 27,
+        "Level_6": 31,
+        "Level_7": 35
+      },
+      "total_learners": 147
+    },
+    {
+      "name": "Social Sciences (Gr 04)",
+      "average_mark": 72.26,
+      "achievement_distribution": {
+        "Level_1": 4,
+        "Level_2": 2,
+        "Level_3": 8,
+        "Level_4": 11,
+        "Level_5": 28,
+        "Level_6": 41,
+        "Level_7": 53
+      },
+      "total_learners": 147
+    }
+  ],
+  "2025_Grade_5": [
+    {
+      "name": "Afrikaans Home Language (Gr 05)",
+      "average_mark": 54.95,
+      "achievement_distribution": {
+        "Level_1": 15,
+        "Level_2": 7,
+        "Level_3": 3,
+        "Level_4": 78,
+        "Level_5": 28,
+        "Level_6": 16,
+        "Level_7": 6
+      },
+      "total_learners": 153
+    },
+    {
+      "name": "English First Additional Language (Gr 05)",
+      "average_mark": 55.71,
+      "achievement_distribution": {
+        "Level_1": 1,
+        "Level_2": 14,
+        "Level_3": 49,
+        "Level_4": 37,
+        "Level_5": 17,
+        "Level_6": 17,
+        "Level_7": 18
+      },
+      "total_learners": 153
+    },
+    {
+      "name": "Life Skills (Gr 05)",
+      "average_mark": 76.52,
+      "achievement_distribution": {
+        "Level_3": 2,
+        "Level_4": 2,
+        "Level_5": 19,
+        "Level_6": 82,
+        "Level_7": 48
+      },
+      "total_learners": 153
+    },
+    {
+      "name": "Mathematics (Gr 05)",
+      "average_mark": 42.78,
+      "achievement_distribution": {
+        "Level_1": 39,
+        "Level_2": 5,
+        "Level_3": 53,
+        "Level_4": 30,
+        "Level_5": 19,
+        "Level_6": 7
+      },
+      "total_learners": 153
+    },
+    {
+      "name": "Natural Sciences and Technology (Gr 05)",
+      "average_mark": 58.22,
+      "achievement_distribution": {
+        "Level_1": 6,
+        "Level_2": 10,
+        "Level_3": 31,
+        "Level_4": 34,
+        "Level_5": 35,
+        "Level_6": 21,
+        "Level_7": 16
+      },
+      "total_learners": 153
+    },
+    {
+      "name": "Social Sciences (Gr 05)",
+      "average_mark": 48.38,
+      "achievement_distribution": {
+        "Level_1": 25,
+        "Level_2": 10,
+        "Level_3": 47,
+        "Level_4": 24,
+        "Level_5": 35,
+        "Level_6": 7,
+        "Level_7": 5
+      },
+      "total_learners": 153
+    }
+  ],
+  "2024_Grade_5": [
+    {
+      "name": "Afrikaans Home Language (Gr 05)",
+      "average_mark": 55.31,
+      "achievement_distribution": {
+        "Level_1": 6,
+        "Level_2": 5,
+        "Level_3": 1,
+        "Level_4": 74,
+        "Level_5": 20,
+        "Level_6": 17,
+        "Level_7": 1
+      },
+      "total_learners": 124
+    },
+    {
+      "name": "English First Additional Language (Gr 05)",
+      "average_mark": 56.21,
+      "achievement_distribution": {
+        "Level_1": 2,
+        "Level_3": 54,
+        "Level_4": 20,
+        "Level_5": 17,
+        "Level_6": 17,
+        "Level_7": 14
+      },
+      "total_learners": 124
+    },
+    {
+      "name": "Life Skills (Gr 05)",
+      "average_mark": 63.32,
+      "achievement_distribution": {
+        "Level_3": 4,
+        "Level_4": 33,
+        "Level_5": 57,
+        "Level_6": 29,
+        "Level_7": 1
+      },
+      "total_learners": 124
+    },
+    {
+      "name": "Mathematics (Gr 05)",
+      "average_mark": 48.82,
+      "achievement_distribution": {
+        "Level_1": 16,
+        "Level_3": 52,
+        "Level_4": 31,
+        "Level_5": 16,
+        "Level_6": 7,
+        "Level_7": 2
+      },
+      "total_learners": 124
+    },
+    {
+      "name": "Natural Sciences and Technology (Gr 05)",
+      "average_mark": 50.65,
+      "achievement_distribution": {
+        "Level_1": 17,
+        "Level_2": 1,
+        "Level_3": 52,
+        "Level_4": 15,
+        "Level_5": 17,
+        "Level_6": 15,
+        "Level_7": 7
+      },
+      "total_learners": 124
+    },
+    {
+      "name": "Social Sciences (Gr 05)",
+      "average_mark": 46.81,
+      "achievement_distribution": {
+        "Level_1": 26,
+        "Level_3": 46,
+        "Level_4": 18,
+        "Level_5": 23,
+        "Level_6": 6,
+        "Level_7": 5
+      },
+      "total_learners": 124
+    }
+  ],
+  "2024_Grade_6": [
+    {
+      "name": "Afrikaans Home Language (Gr 06)",
+      "average_mark": 64.1,
+      "achievement_distribution": {
+        "Level_1": 6,
+        "Level_2": 1,
+        "Level_3": 1,
+        "Level_4": 32,
+        "Level_5": 27,
+        "Level_6": 26,
+        "Level_7": 18
+      },
+      "total_learners": 111
+    },
+    {
+      "name": "English First Additional Language (Gr 06)",
+      "average_mark": 60.5,
+      "achievement_distribution": {
+        "Level_1": 8,
+        "Level_3": 30,
+        "Level_4": 10,
+        "Level_5": 20,
+        "Level_6": 20,
+        "Level_7": 23
+      },
+      "total_learners": 111
+    },
+    {
+      "name": "Life Skills (Gr 06)",
+      "average_mark": 62.41,
+      "achievement_distribution": {
+        "Level_3": 6,
+        "Level_4": 26,
+        "Level_5": 60,
+        "Level_6": 19
+      },
+      "total_learners": 111
+    },
+    {
+      "name": "Mathematics (Gr 06)",
+      "average_mark": 54.19,
+      "achievement_distribution": {
+        "Level_1": 5,
+        "Level_2": 1,
+        "Level_3": 32,
+        "Level_4": 31,
+        "Level_5": 30,
+        "Level_6": 11,
+        "Level_7": 1
+      },
+      "total_learners": 111
+    },
+    {
+      "name": "Natural Sciences and Technology (Gr 06)",
+      "average_mark": 47.84,
+      "achievement_distribution": {
+        "Level_1": 12,
+        "Level_2": 1,
+        "Level_3": 54,
+        "Level_4": 23,
+        "Level_5": 12,
+        "Level_6": 6,
+        "Level_7": 3
+      },
+      "total_learners": 111
+    },
+    {
+      "name": "Social Sciences (Gr 06)",
+      "average_mark": 50.41,
+      "achievement_distribution": {
+        "Level_1": 7,
+        "Level_2": 1,
+        "Level_3": 50,
+        "Level_4": 24,
+        "Level_5": 22,
+        "Level_6": 6,
+        "Level_7": 1
+      },
+      "total_learners": 111
+    }
+  ],
+  "2025_Grade_6": [
+    {
+      "name": "Afrikaans Home Language (Gr 06)",
+      "average_mark": 63.03,
+      "achievement_distribution": {
+        "Level_1": 8,
+        "Level_2": 1,
+        "Level_3": 10,
+        "Level_4": 32,
+        "Level_5": 21,
+        "Level_6": 16,
+        "Level_7": 26
+      },
+      "total_learners": 114
+    },
+    {
+      "name": "English First Additional Language (Gr 06)",
+      "average_mark": 61.54,
+      "achievement_distribution": {
+        "Level_1": 7,
+        "Level_2": 4,
+        "Level_3": 25,
+        "Level_4": 18,
+        "Level_5": 15,
+        "Level_6": 15,
+        "Level_7": 30
+      },
+      "total_learners": 114
+    },
+    {
+      "name": "Life Skills (Gr 06)",
+      "average_mark": 69.89,
+      "achievement_distribution": {
+        "Level_2": 1,
+        "Level_3": 7,
+        "Level_4": 12,
+        "Level_5": 30,
+        "Level_6": 32,
+        "Level_7": 32
+      },
+      "total_learners": 114
+    },
+    {
+      "name": "Mathematics (Gr 06)",
+      "average_mark": 58.78,
+      "achievement_distribution": {
+        "Level_1": 3,
+        "Level_2": 5,
+        "Level_3": 19,
+        "Level_4": 30,
+        "Level_5": 29,
+        "Level_6": 22,
+        "Level_7": 6
+      },
+      "total_learners": 114
+    },
+    {
+      "name": "Natural Sciences and Technology (Gr 06)",
+      "average_mark": 50.02,
+      "achievement_distribution": {
+        "Level_1": 6,
+        "Level_2": 14,
+        "Level_3": 38,
+        "Level_4": 31,
+        "Level_5": 16,
+        "Level_6": 8,
+        "Level_7": 1
+      },
+      "total_learners": 114
+    },
+    {
+      "name": "Social Sciences (Gr 06)",
+      "average_mark": 55.37,
+      "achievement_distribution": {
+        "Level_1": 6,
+        "Level_2": 7,
+        "Level_3": 29,
+        "Level_4": 26,
+        "Level_5": 23,
+        "Level_6": 17,
+        "Level_7": 6
+      },
+      "total_learners": 114
+    }
+  ],
+  "2024_Grade_8": [
+    {
+      "name": "Afrikaans Home Language (Gr 08)",
+      "average_mark": 52.23,
+      "achievement_distribution": {
+        "Level_1": 6,
+        "Level_2": 8,
+        "Level_4": 40,
+        "Level_5": 14,
+        "Level_6": 6
+      },
+      "total_learners": 74
+    },
+    {
+      "name": "Creative Arts (Gr 08)",
+      "average_mark": 62.99,
+      "achievement_distribution": {
+        "Level_2": 1,
+        "Level_3": 6,
+        "Level_4": 21,
+        "Level_5": 23,
+        "Level_6": 23
+      },
+      "total_learners": 74
+    },
+    {
+      "name": "Economic Management Sciences (Gr 08)",
+      "average_mark": 43.5,
+      "achievement_distribution": {
+        "Level_1": 8,
+        "Level_3": 51,
+        "Level_4": 15
+      },
+      "total_learners": 74
+    },
+    {
+      "name": "English First Additional Language (Gr 08)",
+      "average_mark": 66.53,
+      "achievement_distribution": {
+        "Level_1": 1,
+        "Level_3": 7,
+        "Level_4": 10,
+        "Level_5": 22,
+        "Level_6": 25,
+        "Level_7": 9
+      },
+      "total_learners": 74
+    },
+    {
+      "name": "Life Orientation (Gr 08)",
+      "average_mark": 59.93,
+      "achievement_distribution": {
+        "Level_3": 13,
+        "Level_4": 29,
+        "Level_5": 13,
+        "Level_6": 14,
+        "Level_7": 4
+      },
+      "total_learners": 73
+    },
+    {
+      "name": "Mathematics (Gr 08)",
+      "average_mark": 23.11,
+      "achievement_distribution": {
+        "Level_1": 59,
+        "Level_2": 9,
+        "Level_3": 5
+      },
+      "total_learners": 73
+    },
+    {
+      "name": "Natural Sciences (Gr 08)",
+      "average_mark": 39.1,
+      "achievement_distribution": {
+        "Level_1": 21,
+        "Level_3": 45,
+        "Level_4": 5,
+        "Level_5": 2
+      },
+      "total_learners": 73
+    },
+    {
+      "name": "Social Sciences (Gr 08)",
+      "average_mark": 48.33,
+      "achievement_distribution": {
+        "Level_1": 8,
+        "Level_2": 1,
+        "Level_3": 30,
+        "Level_4": 24,
+        "Level_5": 9,
+        "Level_6": 1
+      },
+      "total_learners": 73
+    },
+    {
+      "name": "Technology (Gr 08)",
+      "average_mark": 50.34,
+      "achievement_distribution": {
+        "Level_1": 3,
+        "Level_2": 1,
+        "Level_3": 33,
+        "Level_4": 25,
+        "Level_5": 8,
+        "Level_6": 3
+      },
+      "total_learners": 73
+    }
+  ],
+  "2025_Grade_8": [
+    {
+      "name": "Afrikaans Home Language (Gr 08)",
+      "average_mark": 55.28,
+      "achievement_distribution": {
+        "Level_1": 1,
+        "Level_4": 52,
+        "Level_5": 16,
+        "Level_6": 3
+      },
+      "total_learners": 72
+    },
+    {
+      "name": "Creative Arts (Gr 08)",
+      "average_mark": 69.32,
+      "achievement_distribution": {
+        "Level_2": 2,
+        "Level_3": 8,
+        "Level_4": 9,
+        "Level_5": 10,
+        "Level_6": 24,
+        "Level_7": 19
+      },
+      "total_learners": 72
+    },
+    {
+      "name": "Economic Management Sciences (Gr 08)",
+      "average_mark": 45.89,
+      "achievement_distribution": {
+        "Level_1": 11,
+        "Level_2": 4,
+        "Level_3": 28,
+        "Level_4": 16,
+        "Level_5": 11,
+        "Level_6": 2
+      },
+      "total_learners": 72
+    },
+    {
+      "name": "English First Additional Language (Gr 08)",
+      "average_mark": 67.82,
+      "achievement_distribution": {
+        "Level_1": 1,
+        "Level_2": 3,
+        "Level_3": 6,
+        "Level_4": 7,
+        "Level_5": 15,
+        "Level_6": 21,
+        "Level_7": 21
+      },
+      "total_learners": 74
+    },
+    {
+      "name": "Life Orientation (Gr 08)",
+      "average_mark": 63.79,
+      "achievement_distribution": {
+        "Level_1": 1,
+        "Level_2": 1,
+        "Level_3": 8,
+        "Level_4": 19,
+        "Level_5": 18,
+        "Level_6": 16,
+        "Level_7": 9
+      },
+      "total_learners": 72
+    },
+    {
+      "name": "Mathematics (Gr 08)",
+      "average_mark": 32.89,
+      "achievement_distribution": {
+        "Level_1": 34,
+        "Level_2": 1,
+        "Level_3": 30,
+        "Level_4": 5,
+        "Level_5": 1,
+        "Level_6": 1
+      },
+      "total_learners": 72
+    },
+    {
+      "name": "Natural Sciences (Gr 08)",
+      "average_mark": 48.54,
+      "achievement_distribution": {
+        "Level_1": 7,
+        "Level_2": 6,
+        "Level_3": 21,
+        "Level_4": 26,
+        "Level_5": 10,
+        "Level_6": 2
+      },
+      "total_learners": 72
+    },
+    {
+      "name": "Social Sciences (Gr 08)",
+      "average_mark": 47.75,
+      "achievement_distribution": {
+        "Level_1": 8,
+        "Level_2": 3,
+        "Level_3": 30,
+        "Level_4": 14,
+        "Level_5": 12,
+        "Level_6": 5
+      },
+      "total_learners": 72
+    },
+    {
+      "name": "Technology (Gr 08)",
+      "average_mark": 59.97,
+      "achievement_distribution": {
+        "Level_1": 1,
+        "Level_2": 2,
+        "Level_3": 14,
+        "Level_4": 15,
+        "Level_5": 20,
+        "Level_6": 17,
+        "Level_7": 3
+      },
+      "total_learners": 72
+    }
+  ],
+  "2023_Grade_9": [
+    {
+      "name": "Afrikaans Home Language (Gr 09)",
+      "average_mark": 54.98,
+      "achievement_distribution": {
+        "Level_2": 2,
+        "Level_3": 4,
+        "Level_4": 28,
+        "Level_5": 8,
+        "Level_6": 2,
+        "Level_7": 1
+      },
+      "total_learners": 45
+    },
+    {
+      "name": "Creative Arts (Gr 09)",
+      "average_mark": 67.56,
+      "achievement_distribution": {
+        "Level_1": 1,
+        "Level_3": 3,
+        "Level_4": 4,
+        "Level_5": 10,
+        "Level_6": 24,
+        "Level_7": 3
+      },
+      "total_learners": 45
+    },
+    {
+      "name": "Economic Management Sciences (Gr 09)",
+      "average_mark": 48.67,
+      "achievement_distribution": {
+        "Level_2": 5,
+        "Level_3": 19,
+        "Level_4": 17,
+        "Level_5": 3,
+        "Level_7": 1
+      },
+      "total_learners": 45
+    },
+    {
+      "name": "English First Additional Language (Gr 09)",
+      "average_mark": 60.49,
+      "achievement_distribution": {
+        "Level_2": 1,
+        "Level_3": 5,
+        "Level_4": 13,
+        "Level_5": 17,
+        "Level_6": 8,
+        "Level_7": 1
+      },
+      "total_learners": 45
+    },
+    {
+      "name": "Life Orientation (Gr 09)",
+      "average_mark": 64.31,
+      "achievement_distribution": {
+        "Level_2": 1,
+        "Level_3": 3,
+        "Level_4": 7,
+        "Level_5": 22,
+        "Level_6": 10,
+        "Level_7": 2
+      },
+      "total_learners": 45
+    },
+    {
+      "name": "Mathematics (Gr 09)",
+      "average_mark": 28.98,
+      "achievement_distribution": {
+        "Level_1": 28,
+        "Level_2": 2,
+        "Level_3": 11,
+        "Level_4": 3,
+        "Level_6": 1
+      },
+      "total_learners": 45
+    },
+    {
+      "name": "Natural Sciences (Gr 09)",
+      "average_mark": 45.16,
+      "achievement_distribution": {
+        "Level_1": 2,
+        "Level_2": 15,
+        "Level_3": 13,
+        "Level_4": 10,
+        "Level_5": 4,
+        "Level_7": 1
+      },
+      "total_learners": 45
+    },
+    {
+      "name": "Social Sciences (Gr 09)",
+      "average_mark": 50.96,
+      "achievement_distribution": {
+        "Level_2": 2,
+        "Level_3": 18,
+        "Level_4": 17,
+        "Level_5": 6,
+        "Level_6": 1,
+        "Level_7": 1
+      },
+      "total_learners": 45
+    },
+    {
+      "name": "Technology (Gr 09)",
+      "average_mark": 63.2,
+      "achievement_distribution": {
+        "Level_2": 3,
+        "Level_3": 6,
+        "Level_4": 3,
+        "Level_5": 15,
+        "Level_6": 17,
+        "Level_7": 1
+      },
+      "total_learners": 45
+    }
+  ],
+  "2024_Grade_9": [
+    {
+      "name": "Afrikaans Home Language (Gr 09)",
+      "average_mark": 53.89,
+      "achievement_distribution": {
+        "Level_1": 8,
+        "Level_2": 4,
+        "Level_4": 26,
+        "Level_5": 17,
+        "Level_6": 5,
+        "Level_7": 2
+      },
+      "total_learners": 62
+    },
+    {
+      "name": "Creative Arts (Gr 09)",
+      "average_mark": 62.03,
+      "achievement_distribution": {
+        "Level_1": 1,
+        "Level_3": 12,
+        "Level_4": 8,
+        "Level_5": 19,
+        "Level_6": 21,
+        "Level_7": 1
+      },
+      "total_learners": 62
+    },
+    {
+      "name": "Economic Management Sciences (Gr 09)",
+      "average_mark": 41.68,
+      "achievement_distribution": {
+        "Level_1": 12,
+        "Level_2": 2,
+        "Level_3": 38,
+        "Level_4": 9,
+        "Level_6": 1
+      },
+      "total_learners": 62
+    },
+    {
+      "name": "English First Additional Language (Gr 09)",
+      "average_mark": 62.17,
+      "achievement_distribution": {
+        "Level_1": 5,
+        "Level_3": 6,
+        "Level_4": 13,
+        "Level_5": 12,
+        "Level_6": 20,
+        "Level_7": 7
+      },
+      "total_learners": 63
+    },
+    {
+      "name": "Life Orientation (Gr 09)",
+      "average_mark": 64.73,
+      "achievement_distribution": {
+        "Level_1": 2,
+        "Level_3": 6,
+        "Level_4": 10,
+        "Level_5": 19,
+        "Level_6": 19,
+        "Level_7": 6
+      },
+      "total_learners": 62
+    },
+    {
+      "name": "Mathematics (Gr 09)",
+      "average_mark": 37.87,
+      "achievement_distribution": {
+        "Level_1": 17,
+        "Level_3": 41,
+        "Level_4": 3,
+        "Level_6": 1
+      },
+      "total_learners": 62
+    },
+    {
+      "name": "Natural Sciences (Gr 09)",
+      "average_mark": 42.44,
+      "achievement_distribution": {
+        "Level_1": 10,
+        "Level_2": 1,
+        "Level_3": 37,
+        "Level_4": 10,
+        "Level_5": 3,
+        "Level_6": 1
+      },
+      "total_learners": 62
+    },
+    {
+      "name": "Social Sciences (Gr 09)",
+      "average_mark": 47.98,
+      "achievement_distribution": {
+        "Level_1": 8,
+        "Level_2": 1,
+        "Level_3": 22,
+        "Level_4": 17,
+        "Level_5": 11,
+        "Level_6": 3
+      },
+      "total_learners": 62
+    },
+    {
+      "name": "Technology (Gr 09)",
+      "average_mark": 56.82,
+      "achievement_distribution": {
+        "Level_1": 4,
+        "Level_3": 16,
+        "Level_4": 19,
+        "Level_5": 8,
+        "Level_6": 11,
+        "Level_7": 4
+      },
+      "total_learners": 62
+    }
+  ],
+  "2025_Grade_9": [
+    {
+      "name": "Afrikaans Home Language (Gr 09)",
+      "average_mark": 61.58,
+      "achievement_distribution": {
+        "Level_1": 1,
+        "Level_4": 21,
+        "Level_5": 36,
+        "Level_6": 9
+      },
+      "total_learners": 67
+    },
+    {
+      "name": "Creative Arts (Gr 09)",
+      "average_mark": 70.21,
+      "achievement_distribution": {
+        "Level_3": 6,
+        "Level_4": 9,
+        "Level_5": 12,
+        "Level_6": 21,
+        "Level_7": 19
+      },
+      "total_learners": 67
+    },
+    {
+      "name": "Economic Management Sciences (Gr 09)",
+      "average_mark": 47.51,
+      "achievement_distribution": {
+        "Level_1": 5,
+        "Level_2": 9,
+        "Level_3": 21,
+        "Level_4": 26,
+        "Level_5": 5,
+        "Level_6": 1
+      },
+      "total_learners": 67
+    },
+    {
+      "name": "English First Additional Language (Gr 09)",
+      "average_mark": 63.39,
+      "achievement_distribution": {
+        "Level_1": 2,
+        "Level_2": 2,
+        "Level_3": 5,
+        "Level_4": 13,
+        "Level_5": 19,
+        "Level_6": 23,
+        "Level_7": 3
+      },
+      "total_learners": 67
+    },
+    {
+      "name": "Life Orientation (Gr 09)",
+      "average_mark": 70.81,
+      "achievement_distribution": {
+        "Level_2": 2,
+        "Level_3": 3,
+        "Level_4": 3,
+        "Level_5": 18,
+        "Level_6": 27,
+        "Level_7": 14
+      },
+      "total_learners": 67
+    },
+    {
+      "name": "Mathematics (Gr 09)",
+      "average_mark": 36.81,
+      "achievement_distribution": {
+        "Level_1": 9,
+        "Level_2": 30,
+        "Level_3": 25,
+        "Level_4": 3
+      },
+      "total_learners": 67
+    },
+    {
+      "name": "Natural Sciences (Gr 09)",
+      "average_mark": 44.91,
+      "achievement_distribution": {
+        "Level_1": 3,
+        "Level_2": 6,
+        "Level_3": 40,
+        "Level_4": 16,
+        "Level_5": 2
+      },
+      "total_learners": 67
+    },
+    {
+      "name": "Social Sciences (Gr 09)",
+      "average_mark": 49.07,
+      "achievement_distribution": {
+        "Level_1": 5,
+        "Level_2": 1,
+        "Level_3": 26,
+        "Level_4": 26,
+        "Level_5": 8,
+        "Level_6": 1
+      },
+      "total_learners": 67
+    },
+    {
+      "name": "Technology (Gr 09)",
+      "average_mark": 47.64,
+      "achievement_distribution": {
+        "Level_1": 4,
+        "Level_2": 12,
+        "Level_3": 24,
+        "Level_4": 16,
+        "Level_5": 5,
+        "Level_6": 6
+      },
+      "total_learners": 67
+    }
+  ],
+  "2024_Grade_3": [
+    {
+      "name": "Afrikaans Home Language (Gr 03)",
+      "average_mark": 62.4,
+      "achievement_distribution": {
+        "Level_1": 5,
+        "Level_2": 9,
+        "Level_4": 62,
+        "Level_5": 24,
+        "Level_6": 22,
+        "Level_7": 27
+      },
+      "total_learners": 149
+    },
+    {
+      "name": "English First Additional Language (Gr 03)",
+      "average_mark": 59.03,
+      "achievement_distribution": {
+        "Level_1": 12,
+        "Level_3": 46,
+        "Level_4": 22,
+        "Level_5": 24,
+        "Level_6": 12,
+        "Level_7": 33
+      },
+      "total_learners": 149
+    },
+    {
+      "name": "Life Skills (Gr 03)",
+      "average_mark": 74.96,
+      "achievement_distribution": {
+        "Level_3": 1,
+        "Level_4": 14,
+        "Level_5": 30,
+        "Level_6": 50,
+        "Level_7": 54
+      },
+      "total_learners": 149
+    },
+    {
+      "name": "Mathematics (Gr 03)",
+      "average_mark": 64.13,
+      "achievement_distribution": {
+        "Level_1": 4,
+        "Level_2": 2,
+        "Level_3": 27,
+        "Level_4": 29,
+        "Level_5": 23,
+        "Level_6": 30,
+        "Level_7": 34
+      },
+      "total_learners": 149
+    }
+  ],
+  "2025_Grade_1": [
+    {
+      "name": "Afrikaans Home Language (Gr 01)",
+      "average_mark": 68.18,
+      "achievement_distribution": {
+        "Level_1": 7,
+        "Level_2": 16,
+        "Level_3": 1,
+        "Level_4": 33,
+        "Level_5": 18,
+        "Level_6": 23,
+        "Level_7": 59
+      },
+      "total_learners": 157
+    },
+    {
+      "name": "English First Additional Language (Gr 01)",
+      "average_mark": 71.87,
+      "achievement_distribution": {
+        "Level_1": 4,
+        "Level_2": 6,
+        "Level_3": 14,
+        "Level_4": 14,
+        "Level_5": 23,
+        "Level_6": 27,
+        "Level_7": 69
+      },
+      "total_learners": 157
+    },
+    {
+      "name": "Life Skills (Gr 01)",
+      "average_mark": 72.39,
+      "achievement_distribution": {
+        "Level_1": 2,
+        "Level_2": 5,
+        "Level_3": 7,
+        "Level_4": 19,
+        "Level_5": 23,
+        "Level_6": 39,
+        "Level_7": 62
+      },
+      "total_learners": 157
+    },
+    {
+      "name": "Mathematics (Gr 01)",
+      "average_mark": 69.17,
+      "achievement_distribution": {
+        "Level_1": 14,
+        "Level_2": 11,
+        "Level_3": 16,
+        "Level_4": 9,
+        "Level_5": 14,
+        "Level_6": 21,
+        "Level_7": 72
+      },
+      "total_learners": 157
+    }
+  ],
+  "2025_Grade_2": [
+    {
+      "name": "Afrikaans Home Language (Gr 02)",
+      "average_mark": 62.22,
+      "achievement_distribution": {
+        "Level_1": 9,
+        "Level_2": 6,
+        "Level_3": 1,
+        "Level_4": 30,
+        "Level_5": 18,
+        "Level_6": 15,
+        "Level_7": 23
+      },
+      "total_learners": 102
+    },
+    {
+      "name": "English First Additional Language (Gr 02)",
+      "average_mark": 64.56,
+      "achievement_distribution": {
+        "Level_1": 5,
+        "Level_2": 8,
+        "Level_3": 14,
+        "Level_4": 12,
+        "Level_5": 19,
+        "Level_6": 19,
+        "Level_7": 25
+      },
+      "total_learners": 102
+    },
+    {
+      "name": "Life Skills (Gr 02)",
+      "average_mark": 73.19,
+      "achievement_distribution": {
+        "Level_3": 6,
+        "Level_4": 17,
+        "Level_5": 16,
+        "Level_6": 26,
+        "Level_7": 37
+      },
+      "total_learners": 102
+    },
+    {
+      "name": "Mathematics (Gr 02)",
+      "average_mark": 67.55,
+      "achievement_distribution": {
+        "Level_1": 9,
+        "Level_2": 5,
+        "Level_3": 13,
+        "Level_4": 6,
+        "Level_5": 13,
+        "Level_6": 16,
+        "Level_7": 40
+      },
+      "total_learners": 102
+    }
+  ],
+  "2025_Grade_3": [
+    {
+      "name": "Afrikaans Home Language (Gr 03)",
+      "average_mark": 62.18,
+      "achievement_distribution": {
+        "Level_1": 9,
+        "Level_2": 4,
+        "Level_4": 59,
+        "Level_5": 12,
+        "Level_6": 23,
+        "Level_7": 30
+      },
+      "total_learners": 137
+    },
+    {
+      "name": "English First Additional Language (Gr 03)",
+      "average_mark": 60.67,
+      "achievement_distribution": {
+        "Level_1": 8,
+        "Level_2": 3,
+        "Level_3": 28,
+        "Level_4": 29,
+        "Level_5": 22,
+        "Level_6": 24,
+        "Level_7": 23
+      },
+      "total_learners": 137
+    },
+    {
+      "name": "Life Skills (Gr 03)",
+      "average_mark": 72.67,
+      "achievement_distribution": {
+        "Level_4": 17,
+        "Level_5": 37,
+        "Level_6": 41,
+        "Level_7": 42
+      },
+      "total_learners": 137
+    },
+    {
+      "name": "Mathematics (Gr 03)",
+      "average_mark": 63.12,
+      "achievement_distribution": {
+        "Level_1": 1,
+        "Level_2": 1,
+        "Level_3": 30,
+        "Level_4": 36,
+        "Level_5": 19,
+        "Level_6": 19,
+        "Level_7": 31
+      },
+      "total_learners": 137
+    }
+  ],
+  "2025_Grade_R": [
+    {
+      "name": "Afrikaans Home Language (Gr  R)",
+      "average_mark": 80.79,
+      "achievement_distribution": {
+        "Level_5": 13,
+        "Level_6": 33,
+        "Level_7": 44
+      },
+      "total_learners": 90
+    },
+    {
+      "name": "Life Skills (Gr  R)",
+      "average_mark": 83.28,
+      "achievement_distribution": {
+        "Level_4": 2,
+        "Level_5": 12,
+        "Level_6": 12,
+        "Level_7": 64
+      },
+      "total_learners": 90
+    },
+    {
+      "name": "Mathematics (Gr  R)",
+      "average_mark": 75.46,
+      "achievement_distribution": {
+        "Level_5": 39,
+        "Level_6": 19,
+        "Level_7": 32
+      },
+      "total_learners": 90
+    }
+  ],
+  "2023_Grade_1": [
+    {
+      "name": "Afrikaans Home Language (Gr 01)",
+      "average_mark": 57.65,
+      "achievement_distribution": {
+        "Level_1": 20,
+        "Level_2": 8,
+        "Level_3": 4,
+        "Level_4": 43,
+        "Level_5": 28,
+        "Level_6": 38,
+        "Level_7": 15
+      },
+      "total_learners": 156
+    },
+    {
+      "name": "English First Additional Language (Gr 01)",
+      "average_mark": 68.95,
+      "achievement_distribution": {
+        "Level_1": 6,
+        "Level_2": 7,
+        "Level_3": 3,
+        "Level_4": 22,
+        "Level_5": 28,
+        "Level_6": 34,
+        "Level_7": 46
+      },
+      "total_learners": 146
+    },
+    {
+      "name": "Life Skills (Gr 01)",
+      "average_mark": 70.79,
+      "achievement_distribution": {
+        "Level_1": 1,
+        "Level_2": 8,
+        "Level_3": 9,
+        "Level_4": 15,
+        "Level_5": 29,
+        "Level_6": 48,
+        "Level_7": 46
+      },
+      "total_learners": 156
+    },
+    {
+      "name": "Mathematics (Gr 01)",
+      "average_mark": 65.53,
+      "achievement_distribution": {
+        "Level_1": 12,
+        "Level_2": 12,
+        "Level_3": 17,
+        "Level_4": 12,
+        "Level_5": 26,
+        "Level_6": 22,
+        "Level_7": 55
+      },
+      "total_learners": 156
+    }
+  ],
+  "2023_Grade_2": [
+    {
+      "name": "Afrikaans Home Language (Gr 02)",
+      "average_mark": 71.83,
+      "achievement_distribution": {
+        "Level_2": 2,
+        "Level_3": 2,
+        "Level_4": 18,
+        "Level_5": 32,
+        "Level_6": 42,
+        "Level_7": 40
+      },
+      "total_learners": 136
+    },
+    {
+      "name": "English First Additional Language (Gr 02)",
+      "average_mark": 74.92,
+      "achievement_distribution": {
+        "Level_3": 1,
+        "Level_4": 4,
+        "Level_5": 34,
+        "Level_6": 42,
+        "Level_7": 42
+      },
+      "total_learners": 123
+    },
+    {
+      "name": "Life Skills (Gr 02)",
+      "average_mark": 76.49,
+      "achievement_distribution": {
+        "Level_4": 7,
+        "Level_5": 24,
+        "Level_6": 46,
+        "Level_7": 59
+      },
+      "total_learners": 136
+    },
+    {
+      "name": "Mathematics (Gr 02)",
+      "average_mark": 75.04,
+      "achievement_distribution": {
+        "Level_2": 2,
+        "Level_3": 8,
+        "Level_4": 9,
+        "Level_5": 21,
+        "Level_6": 44,
+        "Level_7": 52
+      },
+      "total_learners": 136
+    }
+  ],
+  "2023_Grade_3": [
+    {
+      "name": "Afrikaans Home Language (Gr 03)",
+      "average_mark": 64.81,
+      "achievement_distribution": {
+        "Level_1": 2,
+        "Level_2": 6,
+        "Level_3": 7,
+        "Level_4": 46,
+        "Level_5": 30,
+        "Level_6": 38,
+        "Level_7": 27
+      },
+      "total_learners": 156
+    },
+    {
+      "name": "English First Additional Language (Gr 03)",
+      "average_mark": 61.99,
+      "achievement_distribution": {
+        "Level_1": 2,
+        "Level_2": 1,
+        "Level_3": 28,
+        "Level_4": 40,
+        "Level_5": 26,
+        "Level_6": 19,
+        "Level_7": 28
+      },
+      "total_learners": 144
+    },
+    {
+      "name": "Life Skills (Gr 03)",
+      "average_mark": 73.54,
+      "achievement_distribution": {
+        "Level_3": 1,
+        "Level_4": 6,
+        "Level_5": 44,
+        "Level_6": 64,
+        "Level_7": 41
+      },
+      "total_learners": 156
+    },
+    {
+      "name": "Mathematics (Gr 03)",
+      "average_mark": 67.12,
+      "achievement_distribution": {
+        "Level_2": 5,
+        "Level_3": 16,
+        "Level_4": 22,
+        "Level_5": 43,
+        "Level_6": 34,
+        "Level_7": 36
+      },
+      "total_learners": 156
+    }
+  ],
+  "2023_Grade_4": [
+    {
+      "name": "Afrikaans Home Language (Gr 04)",
+      "average_mark": 60.95,
+      "achievement_distribution": {
+        "Level_1": 2,
+        "Level_2": 15,
+        "Level_3": 4,
+        "Level_4": 44,
+        "Level_5": 32,
+        "Level_6": 28,
+        "Level_7": 18
+      },
+      "total_learners": 143
+    },
+    {
+      "name": "English First Additional Language (Gr 04)",
+      "average_mark": 59.32,
+      "achievement_distribution": {
+        "Level_1": 6,
+        "Level_2": 13,
+        "Level_3": 22,
+        "Level_4": 21,
+        "Level_5": 23,
+        "Level_6": 21,
+        "Level_7": 21
+      },
+      "total_learners": 127
+    },
+    {
+      "name": "Life Skills (Gr 04)",
+      "average_mark": 68.3,
+      "achievement_distribution": {
+        "Level_2": 1,
+        "Level_3": 5,
+        "Level_4": 21,
+        "Level_5": 35,
+        "Level_6": 74,
+        "Level_7": 7
+      },
+      "total_learners": 143
+    },
+    {
+      "name": "Mathematics (Gr 04)",
+      "average_mark": 50.31,
+      "achievement_distribution": {
+        "Level_1": 26,
+        "Level_2": 8,
+        "Level_3": 36,
+        "Level_4": 22,
+        "Level_5": 24,
+        "Level_6": 21,
+        "Level_7": 6
+      },
+      "total_learners": 143
+    },
+    {
+      "name": "Natural Sciences and Technology (Gr 04)",
+      "average_mark": 56.21,
+      "achievement_distribution": {
+        "Level_1": 7,
+        "Level_2": 7,
+        "Level_3": 36,
+        "Level_4": 21,
+        "Level_5": 26,
+        "Level_6": 16,
+        "Level_7": 14
+      },
+      "total_learners": 127
+    },
+    {
+      "name": "Social Sciences (Gr 04)",
+      "average_mark": 62.51,
+      "achievement_distribution": {
+        "Level_1": 4,
+        "Level_2": 8,
+        "Level_3": 21,
+        "Level_4": 17,
+        "Level_5": 24,
+        "Level_6": 30,
+        "Level_7": 23
+      },
+      "total_learners": 127
+    }
+  ],
+  "2023_Grade_5": [
+    {
+      "name": "Afrikaans Home Language (Gr 05)",
+      "average_mark": 57.47,
+      "achievement_distribution": {
+        "Level_1": 3,
+        "Level_2": 7,
+        "Level_3": 3,
+        "Level_4": 49,
+        "Level_5": 32,
+        "Level_6": 14,
+        "Level_7": 5
+      },
+      "total_learners": 113
+    },
+    {
+      "name": "English First Additional Language (Gr 05)",
+      "average_mark": 64.1,
+      "achievement_distribution": {
+        "Level_2": 3,
+        "Level_3": 19,
+        "Level_4": 23,
+        "Level_5": 13,
+        "Level_6": 19,
+        "Level_7": 22
+      },
+      "total_learners": 99
+    },
+    {
+      "name": "Life Skills (Gr 05)",
+      "average_mark": 64.53,
+      "achievement_distribution": {
+        "Level_3": 5,
+        "Level_4": 32,
+        "Level_5": 44,
+        "Level_6": 21,
+        "Level_7": 11
+      },
+      "total_learners": 113
+    },
+    {
+      "name": "Mathematics (Gr 05)",
+      "average_mark": 48.91,
+      "achievement_distribution": {
+        "Level_1": 22,
+        "Level_2": 5,
+        "Level_3": 27,
+        "Level_4": 22,
+        "Level_5": 19,
+        "Level_6": 14,
+        "Level_7": 4
+      },
+      "total_learners": 113
+    },
+    {
+      "name": "Natural Sciences and Technology (Gr 05)",
+      "average_mark": 44.97,
+      "achievement_distribution": {
+        "Level_1": 19,
+        "Level_2": 16,
+        "Level_3": 29,
+        "Level_4": 16,
+        "Level_5": 10,
+        "Level_6": 8,
+        "Level_7": 1
+      },
+      "total_learners": 99
+    },
+    {
+      "name": "Social Sciences (Gr 05)",
+      "average_mark": 49.72,
+      "achievement_distribution": {
+        "Level_1": 9,
+        "Level_2": 2,
+        "Level_3": 38,
+        "Level_4": 24,
+        "Level_5": 21,
+        "Level_6": 4,
+        "Level_7": 1
+      },
+      "total_learners": 99
+    }
+  ],
+  "2023_Grade_6": [
+    {
+      "name": "Afrikaans Home Language (Gr 06)",
+      "average_mark": 60.21,
+      "achievement_distribution": {
+        "Level_1": 5,
+        "Level_2": 6,
+        "Level_3": 7,
+        "Level_4": 31,
+        "Level_5": 26,
+        "Level_6": 17,
+        "Level_7": 13
+      },
+      "total_learners": 105
+    },
+    {
+      "name": "English First Additional Language (Gr 06)",
+      "average_mark": 59.38,
+      "achievement_distribution": {
+        "Level_1": 9,
+        "Level_2": 3,
+        "Level_3": 14,
+        "Level_4": 18,
+        "Level_5": 17,
+        "Level_6": 25,
+        "Level_7": 11
+      },
+      "total_learners": 97
+    },
+    {
+      "name": "Life Skills (Gr 06)",
+      "average_mark": 65.53,
+      "achievement_distribution": {
+        "Level_2": 2,
+        "Level_4": 20,
+        "Level_5": 52,
+        "Level_6": 27,
+        "Level_7": 4
+      },
+      "total_learners": 105
+    },
+    {
+      "name": "Mathematics (Gr 06)",
+      "average_mark": 57.3,
+      "achievement_distribution": {
+        "Level_1": 5,
+        "Level_2": 4,
+        "Level_3": 21,
+        "Level_4": 23,
+        "Level_5": 33,
+        "Level_6": 16,
+        "Level_7": 3
+      },
+      "total_learners": 105
+    },
+    {
+      "name": "Natural Sciences and Technology (Gr 06)",
+      "average_mark": 48.94,
+      "achievement_distribution": {
+        "Level_1": 10,
+        "Level_2": 11,
+        "Level_3": 37,
+        "Level_4": 11,
+        "Level_5": 16,
+        "Level_6": 6,
+        "Level_7": 6
+      },
+      "total_learners": 97
+    },
+    {
+      "name": "Social Sciences (Gr 06)",
+      "average_mark": 49.63,
+      "achievement_distribution": {
+        "Level_1": 5,
+        "Level_2": 1,
+        "Level_3": 48,
+        "Level_4": 25,
+        "Level_5": 13,
+        "Level_6": 5
+      },
+      "total_learners": 97
+    },
+    {
+      "name": "TO: Afrikaans Home Language (Yr 1)",
+      "average_mark": 53.24,
+      "achievement_distribution": {
+        "Level_1": 4,
+        "Level_2": 7,
+        "Level_3": 11,
+        "Level_4": 8,
+        "Level_5": 7,
+        "Level_6": 9,
+        "Level_7": 3
+      },
+      "total_learners": 49
+    },
+    {
+      "name": "TO: English First Additional Language (Yr 1)",
+      "average_mark": 52.47,
+      "achievement_distribution": {
+        "Level_1": 5,
+        "Level_2": 6,
+        "Level_3": 11,
+        "Level_4": 8,
+        "Level_5": 11,
+        "Level_6": 7,
+        "Level_7": 1
+      },
+      "total_learners": 49
+    },
+    {
+      "name": "TO: Life Skills (Yr 1)",
+      "average_mark": 59.0,
+      "achievement_distribution": {
+        "Level_1": 1,
+        "Level_2": 3,
+        "Level_3": 8,
+        "Level_4": 11,
+        "Level_5": 15,
+        "Level_6": 8,
+        "Level_7": 3
+      },
+      "total_learners": 49
+    },
+    {
+      "name": "TO: Mathematics (Yr 1)",
+      "average_mark": 54.02,
+      "achievement_distribution": {
+        "Level_1": 3,
+        "Level_2": 2,
+        "Level_3": 12,
+        "Level_4": 12,
+        "Level_5": 15,
+        "Level_6": 4,
+        "Level_7": 1
+      },
+      "total_learners": 49
+    }
+  ],
+  "2023_Grade_7": [
+    {
+      "name": "Afrikaans Home Language (Gr 07)",
+      "average_mark": 62.22,
+      "achievement_distribution": {
+        "Level_2": 1,
+        "Level_3": 2,
+        "Level_4": 16,
+        "Level_5": 37,
+        "Level_6": 12
+      },
+      "total_learners": 68
+    },
+    {
+      "name": "Creative Arts (Gr 07)",
+      "average_mark": 68.15,
+      "achievement_distribution": {
+        "Level_4": 9,
+        "Level_5": 27,
+        "Level_6": 30,
+        "Level_7": 2
+      },
+      "total_learners": 68
+    },
+    {
+      "name": "Economic Management Sciences (Gr 07)",
+      "average_mark": 51.06,
+      "achievement_distribution": {
+        "Level_1": 1,
+        "Level_2": 5,
+        "Level_3": 22,
+        "Level_4": 23,
+        "Level_5": 15,
+        "Level_6": 2
+      },
+      "total_learners": 68
+    },
+    {
+      "name": "English First Additional Language (Gr 07)",
+      "average_mark": 58.96,
+      "achievement_distribution": {
+        "Level_1": 2,
+        "Level_2": 2,
+        "Level_3": 7,
+        "Level_4": 22,
+        "Level_5": 23,
+        "Level_6": 12
+      },
+      "total_learners": 68
+    },
+    {
+      "name": "Life Orientation (Gr 07)",
+      "average_mark": 65.32,
+      "achievement_distribution": {
+        "Level_2": 2,
+        "Level_3": 4,
+        "Level_4": 10,
+        "Level_5": 24,
+        "Level_6": 24,
+        "Level_7": 4
+      },
+      "total_learners": 68
+    },
+    {
+      "name": "Mathematics (Gr 07)",
+      "average_mark": 36.78,
+      "achievement_distribution": {
+        "Level_1": 18,
+        "Level_2": 12,
+        "Level_3": 32,
+        "Level_4": 5,
+        "Level_5": 1
+      },
+      "total_learners": 68
+    },
+    {
+      "name": "Natural Sciences (Gr 07)",
+      "average_mark": 46.68,
+      "achievement_distribution": {
+        "Level_1": 4,
+        "Level_2": 7,
+        "Level_3": 30,
+        "Level_4": 19,
+        "Level_5": 6,
+        "Level_6": 2
+      },
+      "total_learners": 68
+    },
+    {
+      "name": "Social Sciences (Gr 07)",
+      "average_mark": 63.57,
+      "achievement_distribution": {
+        "Level_3": 4,
+        "Level_4": 12,
+        "Level_5": 38,
+        "Level_6": 13,
+        "Level_7": 1
+      },
+      "total_learners": 68
+    },
+    {
+      "name": "Technology (Gr 07)",
+      "average_mark": 65.79,
+      "achievement_distribution": {
+        "Level_1": 1,
+        "Level_2": 4,
+        "Level_3": 8,
+        "Level_4": 11,
+        "Level_5": 10,
+        "Level_6": 19,
+        "Level_7": 15
+      },
+      "total_learners": 68
+    }
+  ],
+  "2023_Grade_8": [
+    {
+      "name": "Afrikaans Home Language (Gr 08)",
+      "average_mark": 49.88,
+      "achievement_distribution": {
+        "Level_1": 5,
+        "Level_2": 5,
+        "Level_3": 3,
+        "Level_4": 24,
+        "Level_5": 9,
+        "Level_6": 2
+      },
+      "total_learners": 48
+    },
+    {
+      "name": "Creative Arts (Gr 08)",
+      "average_mark": 76.65,
+      "achievement_distribution": {
+        "Level_1": 1,
+        "Level_4": 4,
+        "Level_5": 6,
+        "Level_6": 11,
+        "Level_7": 26
+      },
+      "total_learners": 48
+    },
+    {
+      "name": "Economic Management Sciences (Gr 08)",
+      "average_mark": 48.08,
+      "achievement_distribution": {
+        "Level_1": 2,
+        "Level_3": 26,
+        "Level_4": 15,
+        "Level_5": 3,
+        "Level_6": 2
+      },
+      "total_learners": 48
+    },
+    {
+      "name": "English First Additional Language (Gr 08)",
+      "average_mark": 58.48,
+      "achievement_distribution": {
+        "Level_1": 2,
+        "Level_2": 1,
+        "Level_3": 3,
+        "Level_4": 18,
+        "Level_5": 12,
+        "Level_6": 11,
+        "Level_7": 1
+      },
+      "total_learners": 48
+    },
+    {
+      "name": "Life Orientation (Gr 08)",
+      "average_mark": 65.75,
+      "achievement_distribution": {
+        "Level_2": 2,
+        "Level_3": 4,
+        "Level_4": 9,
+        "Level_5": 11,
+        "Level_6": 15,
+        "Level_7": 7
+      },
+      "total_learners": 48
+    },
+    {
+      "name": "Mathematics (Gr 08)",
+      "average_mark": 33.33,
+      "achievement_distribution": {
+        "Level_1": 25,
+        "Level_2": 5,
+        "Level_3": 11,
+        "Level_4": 2,
+        "Level_5": 3,
+        "Level_6": 2
+      },
+      "total_learners": 48
+    },
+    {
+      "name": "Natural Sciences (Gr 08)",
+      "average_mark": 45.65,
+      "achievement_distribution": {
+        "Level_1": 5,
+        "Level_2": 7,
+        "Level_3": 19,
+        "Level_4": 10,
+        "Level_5": 6,
+        "Level_7": 1
+      },
+      "total_learners": 48
+    },
+    {
+      "name": "Social Sciences (Gr 08)",
+      "average_mark": 52.1,
+      "achievement_distribution": {
+        "Level_1": 2,
+        "Level_2": 4,
+        "Level_3": 13,
+        "Level_4": 16,
+        "Level_5": 10,
+        "Level_6": 3
+      },
+      "total_learners": 48
+    },
+    {
+      "name": "Technology (Gr 08)",
+      "average_mark": 65.73,
+      "achievement_distribution": {
+        "Level_2": 3,
+        "Level_3": 2,
+        "Level_4": 8,
+        "Level_5": 13,
+        "Level_6": 15,
+        "Level_7": 7
+      },
+      "total_learners": 48
+    }
+  ],
+  "2023_Grade_R": [
+    {
+      "name": "Afrikaans Home Language (Gr  R)",
+      "average_mark": 71.36,
+      "achievement_distribution": {
+        "Level_4": 8,
+        "Level_5": 32,
+        "Level_6": 16,
+        "Level_7": 22
+      },
+      "total_learners": 78
+    },
+    {
+      "name": "Life Skills (Gr  R)",
+      "average_mark": 75.35,
+      "achievement_distribution": {
+        "Level_4": 9,
+        "Level_5": 19,
+        "Level_6": 21,
+        "Level_7": 29
+      },
+      "total_learners": 78
+    },
+    {
+      "name": "Mathematics (Gr  R)",
+      "average_mark": 72.96,
+      "achievement_distribution": {
+        "Level_3": 1,
+        "Level_4": 10,
+        "Level_5": 30,
+        "Level_6": 10,
+        "Level_7": 27
+      },
+      "total_learners": 78
+    }
+  ],
+  "2024_Grade_R": [
+    {
+      "name": "Afrikaans Home Language (Gr  R)",
+      "average_mark": 76.63,
+      "achievement_distribution": {
+        "Level_4": 11,
+        "Level_5": 30,
+        "Level_6": 21,
+        "Level_7": 54
+      },
+      "total_learners": 116
+    },
+    {
+      "name": "Life Skills (Gr  R)",
+      "average_mark": 80.22,
+      "achievement_distribution": {
+        "Level_4": 6,
+        "Level_5": 26,
+        "Level_6": 23,
+        "Level_7": 61
+      },
+      "total_learners": 116
+    },
+    {
+      "name": "Mathematics (Gr  R)",
+      "average_mark": 80.47,
+      "achievement_distribution": {
+        "Level_3": 1,
+        "Level_4": 10,
+        "Level_5": 15,
+        "Level_6": 27,
+        "Level_7": 63
+      },
+      "total_learners": 116
+    }
+  ],
+  "2024_Grade_2024": [
+    {
+      "name": "Afrikaans Home Language (Gr 01)",
+      "average_mark": 55.46,
+      "achievement_distribution": {
+        "Level_1": 22,
+        "Level_2": 14,
+        "Level_3": 2,
+        "Level_4": 34,
+        "Level_5": 31,
+        "Level_6": 14,
+        "Level_7": 17
+      },
+      "total_learners": 134
+    },
+    {
+      "name": "English First Additional Language (Gr 01)",
+      "average_mark": 65.93,
+      "achievement_distribution": {
+        "Level_1": 4,
+        "Level_2": 6,
+        "Level_3": 16,
+        "Level_4": 21,
+        "Level_5": 24,
+        "Level_6": 28,
+        "Level_7": 35
+      },
+      "total_learners": 134
+    },
+    {
+      "name": "Life Skills (Gr 01)",
+      "average_mark": 67.5,
+      "achievement_distribution": {
+        "Level_1": 1,
+        "Level_2": 4,
+        "Level_3": 20,
+        "Level_4": 15,
+        "Level_5": 23,
+        "Level_6": 36,
+        "Level_7": 35
+      },
+      "total_learners": 134
+    },
+    {
+      "name": "Mathematics (Gr 01)",
+      "average_mark": 65.43,
+      "achievement_distribution": {
+        "Level_1": 9,
+        "Level_2": 15,
+        "Level_3": 19,
+        "Level_4": 9,
+        "Level_5": 15,
+        "Level_6": 20,
+        "Level_7": 47
+      },
+      "total_learners": 134
+    }
+  ],
+  "staff_data": {
+    "2023": {
+      "principal": 1,
+      "deputy_principal": 1,
+      "department_heads": 3,
+      "teachers": 28,
+      "support_staff": 4,
+      "administrative_staff": 3,
+      "total_staff": 40
+    },
+    "2024": {
+      "principal": 1,
+      "deputy_principal": 1,
+      "department_heads": 3,
+      "teachers": 30,
+      "support_staff": 4,
+      "administrative_staff": 3,
+      "total_staff": 42
+    },
+    "2025": {
+      "principal": 1,
+      "deputy_principal": 1,
+      "department_heads": 3,
+      "teachers": 32,
+      "support_staff": 5,
+      "administrative_staff": 3,
+      "total_staff": 45
+    }
+  }
+}

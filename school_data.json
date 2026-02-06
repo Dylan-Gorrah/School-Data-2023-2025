@@ -1,0 +1,511 @@
+{
+  "summary": {
+    "2023": {
+      "quarters": {
+        "Q1": {
+          "enrollment": {
+            "Grade_R": 78,
+            "Grade_1": 159,
+            "Grade_2": 146,
+            "Grade_3": 162,
+            "Grade_4": 153,
+            "Grade_5": 126,
+            "Grade_6": 140,
+            "Grade_7": 75,
+            "Grade_8": 57,
+            "Grade_9": 47
+          },
+          "pass_counts": {},
+          "pass_rates": {
+            "Grade_R": 100.0,
+            "Grade_1": 64.78,
+            "Grade_2": 84.93,
+            "Grade_3": 70.37,
+            "Grade_4": 49.02,
+            "Grade_5": 34.92,
+            "Grade_6": 43.57,
+            "Grade_7": 20.0,
+            "Grade_8": 26.32,
+            "Grade_9": 8.51
+          },
+          "grade_averages": {
+            "Grade_R": 69.79,
+            "Grade_1": 66.78,
+            "Grade_2": 71.25,
+            "Grade_3": 64.8,
+            "Grade_4": 57.36,
+            "Grade_5": 58.31,
+            "Grade_6": 53.9,
+            "Grade_7": 53.51,
+            "Grade_8": 54.98,
+            "Grade_9": 56.64
+          }
+        },
+        "Q2": {
+          "enrollment": {
+            "Grade_R": 80,
+            "Grade_1": 158,
+            "Grade_2": 145,
+            "Grade_3": 159,
+            "Grade_4": 149,
+            "Grade_5": 121,
+            "Grade_6": 134,
+            "Grade_7": 73,
+            "Grade_8": 52,
+            "Grade_9": 47
+          },
+          "pass_counts": {},
+          "pass_rates": {
+            "Grade_R": 100.0,
+            "Grade_1": 70.89,
+            "Grade_2": 86.21,
+            "Grade_3": 75.47,
+            "Grade_4": 58.39,
+            "Grade_5": 64.46,
+            "Grade_6": 54.48,
+            "Grade_7": 27.4,
+            "Grade_8": 36.54,
+            "Grade_9": 19.15
+          },
+          "grade_averages": {
+            "Grade_R": 69.54,
+            "Grade_1": 65.49,
+            "Grade_2": 71.1,
+            "Grade_3": 63.53,
+            "Grade_4": 57.79,
+            "Grade_5": 52.8,
+            "Grade_6": 53.66,
+            "Grade_7": 55.14,
+            "Grade_8": 51.29,
+            "Grade_9": 45.98
+          }
+        },
+        "Q3": {
+          "enrollment": {
+            "Grade_R": 78,
+            "Grade_1": 158,
+            "Grade_2": 140,
+            "Grade_3": 157,
+            "Grade_4": 142,
+            "Grade_5": 118,
+            "Grade_6": 128,
+            "Grade_7": 69,
+            "Grade_8": 50,
+            "Grade_9": 45
+          },
+          "pass_counts": {},
+          "pass_rates": {
+            "Grade_R": 100.0,
+            "Grade_1": 57.59,
+            "Grade_2": 85.71,
+            "Grade_3": 81.53,
+            "Grade_4": 71.83,
+            "Grade_5": 55.93,
+            "Grade_6": 67.97,
+            "Grade_7": 88.41,
+            "Grade_8": 30.0,
+            "Grade_9": 57.78
+          },
+          "grade_averages": {
+            "Grade_R": 77.77,
+            "Grade_1": 66.15,
+            "Grade_2": 73.29,
+            "Grade_3": 69.25,
+            "Grade_4": 64.05,
+            "Grade_5": 55.08,
+            "Grade_6": 58.03,
+            "Grade_7": 62.74,
+            "Grade_8": 60.44,
+            "Grade_9": 60.42
+          }
+        },
+        "Q4": {
+          "enrollment": {
+            "Grade_R": 78,
+            "Grade_1": 156,
+            "Grade_2": 136,
+            "Grade_3": 156,
+            "Grade_4": 143,
+            "Grade_5": 113,
+            "Grade_6": 154,
+            "Grade_7": 68,
+            "Grade_8": 48,
+            "Grade_9": 45
+          },
+          "pass_counts": {},
+          "pass_rates": {
+            "Grade_R": 100.0,
+            "Grade_1": 82.05,
+            "Grade_2": 98.53,
+            "Grade_3": 89.74,
+            "Grade_4": 75.52,
+            "Grade_5": 78.76,
+            "Grade_6": 57.14,
+            "Grade_7": 97.06,
+            "Grade_8": 87.5,
+            "Grade_9": 97.78
+          },
+          "grade_averages": {
+            "Grade_R": 73.19,
+            "Grade_1": 65.46,
+            "Grade_2": 74.26,
+            "Grade_3": 67.06,
+            "Grade_4": 60.44,
+            "Grade_5": 56.34,
+            "Grade_6": 56.84,
+            "Grade_7": 57.63,
+            "Grade_8": 55.0,
+            "Grade_9": 53.82
+          }
+        }
+      }
+    },
+    "2024": {
+      "quarters": {
+        "Q1": {
+          "enrollment": {
+            "Grade_R": 116,
+            "Grade_1": 142,
+            "Grade_2": 138,
+            "Grade_3": 148,
+            "Grade_4": 181,
+            "Grade_5": 134,
+            "Grade_6": 111,
+            "Grade_7": 94,
+            "Grade_8": 67,
+            "Grade_9": 40
+          },
+          "pass_counts": {},
+          "pass_rates": {
+            "Grade_R": 100.0,
+            "Grade_1": 61.97,
+            "Grade_2": 87.68,
+            "Grade_3": 73.65,
+            "Grade_4": 39.78,
+            "Grade_5": 32.84,
+            "Grade_6": 61.26,
+            "Grade_7": 77.66,
+            "Grade_8": 22.39,
+            "Grade_9": 55.0
+          },
+          "grade_averages": {
+            "Grade_R": 76.32,
+            "Grade_1": 64.0,
+            "Grade_2": 74.53,
+            "Grade_3": 67.5,
+            "Grade_4": 56.13,
+            "Grade_5": 52.17,
+            "Grade_6": 57.99,
+            "Grade_7": 62.36,
+            "Grade_8": 54.99,
+            "Grade_9": 63.4
+          }
+        },
+        "Q2": {
+          "enrollment": {
+            "Grade_R": 115,
+            "Grade_1": 137,
+            "Grade_2": 138,
+            "Grade_3": 151,
+            "Grade_4": 165,
+            "Grade_5": 129,
+            "Grade_6": 111,
+            "Grade_7": 96,
+            "Grade_8": 78,
+            "Grade_9": 65
+          },
+          "pass_counts": {},
+          "pass_rates": {
+            "Grade_R": 100.0,
+            "Grade_1": 70.8,
+            "Grade_2": 88.41,
+            "Grade_3": 84.11,
+            "Grade_4": 41.21,
+            "Grade_5": 79.07,
+            "Grade_6": 72.97,
+            "Grade_7": 43.75,
+            "Grade_8": 34.62,
+            "Grade_9": 61.54
+          },
+          "grade_averages": {
+            "Grade_R": 81.01,
+            "Grade_1": 65.39,
+            "Grade_2": 74.21,
+            "Grade_3": 65.02,
+            "Grade_4": 49.48,
+            "Grade_5": 53.29,
+            "Grade_6": 54.59,
+            "Grade_7": 51.64,
+            "Grade_8": 47.47,
+            "Grade_9": 50.51
+          }
+        },
+        "Q3": {
+          "enrollment": {
+            "Grade_R": 116,
+            "Grade_1": 135,
+            "Grade_2": 137,
+            "Grade_3": 150,
+            "Grade_4": 166,
+            "Grade_5": 125,
+            "Grade_6": 112,
+            "Grade_7": 91,
+            "Grade_8": 78,
+            "Grade_9": 63
+          },
+          "pass_counts": {},
+          "pass_rates": {
+            "Grade_R": 100.0,
+            "Grade_1": 63.7,
+            "Grade_2": 89.05,
+            "Grade_3": 59.33,
+            "Grade_4": 60.24,
+            "Grade_5": 70.4,
+            "Grade_6": 74.11,
+            "Grade_7": 37.36,
+            "Grade_8": 20.51,
+            "Grade_9": 52.38
+          },
+          "grade_averages": {
+            "Grade_R": 79.61,
+            "Grade_1": 63.08,
+            "Grade_2": 73.05,
+            "Grade_3": 63.43,
+            "Grade_4": 62.27,
+            "Grade_5": 55.37,
+            "Grade_6": 58.61,
+            "Grade_7": 57.38,
+            "Grade_8": 54.05,
+            "Grade_9": 58.83
+          }
+        },
+        "Q4": {
+          "enrollment": {
+            "Grade_R": 116,
+            "Grade_1": 134,
+            "Grade_2": 135,
+            "Grade_3": 149,
+            "Grade_4": 163,
+            "Grade_5": 124,
+            "Grade_6": 111,
+            "Grade_7": 91,
+            "Grade_8": 73,
+            "Grade_9": 62
+          },
+          "pass_counts": {},
+          "pass_rates": {
+            "Grade_R": 100.0,
+            "Grade_1": 71.64,
+            "Grade_2": 100.0,
+            "Grade_3": 96.64,
+            "Grade_4": 92.02,
+            "Grade_5": 92.74,
+            "Grade_6": 97.3,
+            "Grade_7": 95.6,
+            "Grade_8": 94.52,
+            "Grade_9": 91.94
+          },
+          "grade_averages": {
+            "Grade_R": 79.13,
+            "Grade_1": 63.75,
+            "Grade_2": 74.44,
+            "Grade_3": 65.26,
+            "Grade_4": 56.36,
+            "Grade_5": 53.61,
+            "Grade_6": 56.66,
+            "Grade_7": 52.11,
+            "Grade_8": 49.71,
+            "Grade_9": 52.24
+          }
+        }
+      }
+    },
+    "2025": {
+      "quarters": {
+        "Q1": {
+          "enrollment": {
+            "Grade_R": 98,
+            "Grade_1": 161,
+            "Grade_2": 106,
+            "Grade_3": 140,
+            "Grade_4": 155,
+            "Grade_5": 160,
+            "Grade_6": 118,
+            "Grade_7": 112,
+            "Grade_8": 86,
+            "Grade_9": 68
+          },
+          "pass_counts": {},
+          "pass_rates": {
+            "Grade_R": 100.0,
+            "Grade_1": 73.91,
+            "Grade_2": 68.87,
+            "Grade_3": 70.71,
+            "Grade_4": 50.32,
+            "Grade_5": 38.75,
+            "Grade_6": 63.56,
+            "Grade_7": 46.43,
+            "Grade_8": 31.4,
+            "Grade_9": 52.94
+          },
+          "grade_averages": {
+            "Grade_R": 77.33,
+            "Grade_1": 71.04,
+            "Grade_2": 64.89,
+            "Grade_3": 63.04,
+            "Grade_4": 59.66,
+            "Grade_5": 54.01,
+            "Grade_6": 57.43,
+            "Grade_7": 56.77,
+            "Grade_8": 54.44,
+            "Grade_9": 59.09
+          }
+        },
+        "Q2": {
+          "enrollment": {
+            "Grade_R": 96,
+            "Grade_1": 160,
+            "Grade_2": 105,
+            "Grade_3": 139,
+            "Grade_4": 151,
+            "Grade_5": 159,
+            "Grade_6": 115,
+            "Grade_7": 105,
+            "Grade_8": 79,
+            "Grade_9": 69
+          },
+          "pass_counts": {},
+          "pass_rates": {
+            "Grade_R": 100.0,
+            "Grade_1": 69.38,
+            "Grade_2": 71.43,
+            "Grade_3": 63.31,
+            "Grade_4": 58.94,
+            "Grade_5": 57.23,
+            "Grade_6": 69.57,
+            "Grade_7": 42.86,
+            "Grade_8": 36.71,
+            "Grade_9": 52.17
+          },
+          "grade_averages": {
+            "Grade_R": 75.1,
+            "Grade_1": 66.47,
+            "Grade_2": 66.37,
+            "Grade_3": 61.58,
+            "Grade_4": 60.6,
+            "Grade_5": 52.56,
+            "Grade_6": 60.35,
+            "Grade_7": 50.88,
+            "Grade_8": 50.72,
+            "Grade_9": 54.72
+          }
+        },
+        "Q3": {
+          "enrollment": {
+            "Grade_R": 90,
+            "Grade_1": 157,
+            "Grade_2": 102,
+            "Grade_3": 137,
+            "Grade_4": 148,
+            "Grade_5": 157,
+            "Grade_6": 115,
+            "Grade_7": 102,
+            "Grade_8": 74,
+            "Grade_9": 69
+          },
+          "pass_counts": {},
+          "pass_rates": {
+            "Grade_R": 100.0,
+            "Grade_1": 69.43,
+            "Grade_2": 79.41,
+            "Grade_3": 77.37,
+            "Grade_4": 64.19,
+            "Grade_5": 66.88,
+            "Grade_6": 85.22,
+            "Grade_7": 85.29,
+            "Grade_8": 55.41,
+            "Grade_9": 73.91
+          },
+          "grade_averages": {
+            "Grade_R": 80.41,
+            "Grade_1": 70.22,
+            "Grade_2": 66.73,
+            "Grade_3": 63.95,
+            "Grade_4": 71.63,
+            "Grade_5": 62.48,
+            "Grade_6": 65.02,
+            "Grade_7": 63.49,
+            "Grade_8": 58.42,
+            "Grade_9": 64.13
+          }
+        },
+        "Q4": {
+          "enrollment": {
+            "Grade_R": 90,
+            "Grade_1": 157,
+            "Grade_2": 102,
+            "Grade_3": 137,
+            "Grade_4": 147,
+            "Grade_5": 153,
+            "Grade_6": 114,
+            "Grade_7": 100,
+            "Grade_8": 72,
+            "Grade_9": 67
+          },
+          "pass_counts": {},
+          "pass_rates": {
+            "Grade_R": 100.0,
+            "Grade_1": 83.44,
+            "Grade_2": 91.18,
+            "Grade_3": 97.81,
+            "Grade_4": 91.84,
+            "Grade_5": 95.42,
+            "Grade_6": 98.25,
+            "Grade_7": 100.0,
+            "Grade_8": 100.0,
+            "Grade_9": 100.0
+          },
+          "grade_averages": {
+            "Grade_R": 79.8,
+            "Grade_1": 70.55,
+            "Grade_2": 67.02,
+            "Grade_3": 64.8,
+            "Grade_4": 63.14,
+            "Grade_5": 56.15,
+            "Grade_6": 59.85,
+            "Grade_7": 53.87,
+            "Grade_8": 54.64,
+            "Grade_9": 54.67
+          }
+        }
+      }
+    }
+  },
+  "subjects": {
+    "2025_Grade_5": [],
+    "2025_Grade_4": [],
+    "2024_Grade_6": [],
+    "2024_Grade_R": [],
+    "2025_Grade_8": [],
+    "2023_Grade_2": [],
+    "2023_Grade_1": [],
+    "2025_Grade_2": [],
+    "2024_Grade_9": [],
+    "2023_Grade_5": [],
+    "2023_Grade_7": [],
+    "2024_Grade_4": [],
+    "2023_Grade_9": [],
+    "2023_Grade_4": [],
+    "2025_Grade_6": [],
+    "2025_Grade_1": [],
+    "2024_Grade_8": [],
+    "2023_Grade_8": [],
+    "2025_Grade_R": [],
+    "2023_Grade_3": [],
+    "2023_Grade_R": [],
+    "2024_Grade_5": [],
+    "2025_Grade_9": [],
+    "2023_Grade_6": [],
+    "2025_Grade_3": []
+  }
+}
