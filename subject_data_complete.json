@@ -2156,5 +2156,34 @@
       },
       "total_learners": 134
     }
-  ]
+  ],
+  "staff_data": {
+    "2023": {
+      "principal": 1,
+      "deputy_principal": 1,
+      "department_heads": 3,
+      "teachers": 28,
+      "support_staff": 4,
+      "administrative_staff": 3,
+      "total_staff": 40
+    },
+    "2024": {
+      "principal": 1,
+      "deputy_principal": 1,
+      "department_heads": 3,
+      "teachers": 30,
+      "support_staff": 4,
+      "administrative_staff": 3,
+      "total_staff": 42
+    },
+    "2025": {
+      "principal": 1,
+      "deputy_principal": 1,
+      "department_heads": 3,
+      "teachers": 32,
+      "support_staff": 5,
+      "administrative_staff": 3,
+      "total_staff": 45
+    }
+  }
 }

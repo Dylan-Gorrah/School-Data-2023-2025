@@ -852,7 +852,12 @@
         <!-- Enrollment Chart -->
         <div class="chart-section">
             <div class="chart-header">
-                <h2 class="chart-title">📊 Enrollment Trends</h2>
+                <h2 class="chart-title">
+                <svg class="chart-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" style="width: 24px; height: 24px; margin-right: 8px; vertical-align: middle;">
+                    <path d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
+                </svg>
+                Enrollment Trends
+            </h2>
                 <p class="chart-subtitle">See how many students we have in each grade this year!</p>
             </div>
             <div class="chart-container">
@@ -863,7 +868,12 @@
         <!-- Pass Rate Heatmap -->
         <div class="chart-section">
             <div class="chart-header">
-                <h2 class="chart-title">✅ Student Pass Rates</h2>
+                <h2 class="chart-title">
+                <svg class="chart-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" style="width: 24px; height: 24px; margin-right: 8px; vertical-align: middle;">
+                    <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                </svg>
+                Student Pass Rates
+            </h2>
                 <p class="chart-subtitle">Great job! Let's see how well our students are doing in each grade.</p>
             </div>
             <div class="chart-container">
@@ -874,7 +884,12 @@
         <!-- Quarterly Progression -->
         <div class="chart-section">
             <div class="chart-header">
-                <h2 class="chart-title">📈 Quarterly Progress</h2>
+                <h2 class="chart-title">
+                <svg class="chart-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" style="width: 24px; height: 24px; margin-right: 8px; vertical-align: middle;">
+                    <path d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/>
+                </svg>
+                Quarterly Progress
+            </h2>
                 <p class="chart-subtitle">Watch how our students improve from Term 1 to Term 4!</p>
             </div>
             <div class="chart-container">
@@ -885,7 +900,13 @@
         <!-- Grade 9 Subjects -->
         <div class="chart-section">
             <div class="chart-header">
-                <h2 class="chart-title">🎓 Grade 9 Subject Performance</h2>
+                <h2 class="chart-title">
+                <svg class="chart-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" style="width: 24px; height: 24px; margin-right: 8px; vertical-align: middle;">
+                    <path d="M12 14l9-5-9-5-9 5 9 5z"/>
+                    <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"/>
+                </svg>
+                Grade 9 Subject Performance
+            </h2>
                 <p class="chart-subtitle">Our Grade 9 students are getting ready for high school! Let's see how they're doing.</p>
             </div>
             <div class="chart-container">
@@ -893,119 +914,16 @@
             </div>
         </div>
 
-        <!-- Facilities Checklist -->
-        <div class="chart-section">
-            <div class="chart-header">
-                <h2 class="chart-title">🏫 School Facilities - Attention Required</h2>
-                <p class="chart-subtitle">Help us keep our school safe and clean! Check off items when completed.</p>
-            </div>
-            <div class="facilities-checklist" id="facilitiesChecklist">
-                <div class="checklist-category">
-                    <h3>🚽 Restrooms & Plumbing</h3>
-                    <div class="checklist-item">
-                        <input type="checkbox" id="toilet-paper" class="checklist-checkbox">
-                        <label for="toilet-paper" class="checklist-label">
-                            <span class="checklist-text">Restock toilet paper in all bathrooms</span>
-                            <span class="checklist-priority high">High Priority</span>
-                        </label>
-                    </div>
-                    <div class="checklist-item">
-                        <input type="checkbox" id="soap-dispensers" class="checklist-checkbox">
-                        <label for="soap-dispensers" class="checklist-label">
-                            <span class="checklist-text">Refill soap dispensers</span>
-                            <span class="checklist-priority high">High Priority</span>
-                        </label>
-                    </div>
-                    <div class="checklist-item">
-                        <input type="checkbox" id="leaky-faucet" class="checklist-checkbox">
-                        <label for="leaky-faucet" class="checklist-label">
-                            <span class="checklist-text">Fix leaky faucet in boys' restroom</span>
-                            <span class="checklist-priority medium">Medium Priority</span>
-                        </label>
-                    </div>
-                </div>
-
-                <div class="checklist-category">
-                    <h3>🏗️ Maintenance & Repairs</h3>
-                    <div class="checklist-item">
-                        <input type="checkbox" id="broken-window" class="checklist-checkbox">
-                        <label for="broken-window" class="checklist-label">
-                            <span class="checklist-text">Repair broken window in Grade 7 classroom</span>
-                            <span class="checklist-priority high">High Priority</span>
-                        </label>
-                    </div>
-                    <div class="checklist-item">
-                        <input type="checkbox" id="light-bulbs" class="checklist-checkbox">
-                        <label for="light-bulbs" class="checklist-label">
-                            <span class="checklist-text">Replace flickering light bulbs in hallway</span>
-                            <span class="checklist-priority medium">Medium Priority</span>
-                        </label>
-                    </div>
-                    <div class="checklist-item">
-                        <input type="checkbox" id="playground-equipment" class="checklist-checkbox">
-                        <label for="playground-equipment" class="checklist-label">
-                            <span class="checklist-text">Inspect and tighten playground equipment</span>
-                            <span class="checklist-priority high">High Priority</span>
-                        </label>
-                    </div>
-                </div>
-
-                <div class="checklist-category">
-                    <h3>🧹 Cleaning & Supplies</h3>
-                    <div class="checklist-item">
-                        <input type="checkbox" id="classroom-cleaning" class="checklist-checkbox">
-                        <label for="classroom-cleaning" class="checklist-label">
-                            <span class="checklist-text">Deep clean all classroom floors</span>
-                            <span class="checklist-priority medium">Medium Priority</span>
-                        </label>
-                    </div>
-                    <div class="checklist-item">
-                        <input type="checkbox" id="trash-cans" class="checklist-checkbox">
-                        <label for="trash-cans" class="checklist-label">
-                            <span class="checklist-text">Empty and clean all trash cans</span>
-                            <span class="checklist-priority low">Low Priority</span>
-                        </label>
-                    </div>
-                    <div class="checklist-item">
-                        <input type="checkbox" id="hand-sanitizer" class="checklist-checkbox">
-                        <label for="hand-sanitizer" class="checklist-label">
-                            <span class="checklist-text">Refill hand sanitizer stations</span>
-                            <span class="checklist-priority high">High Priority</span>
-                        </label>
-                    </div>
-                </div>
-
-                <div class="checklist-category">
-                    <h3>📚 Learning Resources</h3>
-                    <div class="checklist-item">
-                        <input type="checkbox" id="textbooks" class="checklist-checkbox">
-                        <label for="textbooks" class="checklist-label">
-                            <span class="checklist-text">Organize and count textbook inventory</span>
-                            <span class="checklist-priority low">Low Priority</span>
-                        </label>
-                    </div>
-                    <div class="checklist-item">
-                        <input type="checkbox" id="library-books" class="checklist-checkbox">
-                        <label for="library-books" class="checklist-label">
-                            <span class="checklist-text">Return misplaced library books to shelves</span>
-                            <span class="checklist-priority medium">Medium Priority</span>
-                        </label>
-                    </div>
-                    <div class="checklist-item">
-                        <input type="checkbox" id="stationery-supplies" class="checklist-checkbox">
-                        <label for="stationery-supplies" class="checklist-label">
-                            <span class="checklist-text">Check and restock stationery supplies</span>
-                            <span class="checklist-priority medium">Medium Priority</span>
-                        </label>
-                    </div>
-                </div>
-            </div>
-        </div>
-
+        
         <!-- Subject Cards -->
         <div class="chart-section">
             <div class="chart-header">
-                <h2 class="chart-title">📚 Subject Performance Details</h2>
+                <h2 class="chart-title">
+                <svg class="chart-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" style="width: 24px; height: 24px; margin-right: 8px; vertical-align: middle;">
+                    <path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/>
+                </svg>
+                Subject Performance Details
+            </h2>
                 <p class="chart-subtitle">Let's celebrate our successes and see where we need extra help!</p>
             </div>
             <div class="subject-grid" id="subjectGrid">
@@ -1016,13 +934,23 @@
         <!-- Detailed Data Tables -->
         <div class="chart-section">
             <div class="chart-header">
-                <h2 class="chart-title">📋 Complete School Data Overview</h2>
+                <h2 class="chart-title">
+                <svg class="chart-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" style="width: 24px; height: 24px; margin-right: 8px; vertical-align: middle;">
+                    <path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"/>
+                </svg>
+                Complete School Data Overview
+            </h2>
                 <p class="chart-subtitle">All the numbers and details you need to know!</p>
             </div>
             
             <!-- Enrollment Data Table -->
             <div class="data-table-section">
-                <h3 class="data-table-title">👥 Enrollment Numbers by Grade</h3>
+                <h3 class="data-table-title">
+            <svg class="section-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" style="width: 20px; height: 20px; margin-right: 8px;">
+                <path d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
+            </svg>
+            Enrollment Numbers by Grade
+        </h3>
                 <div class="table-responsive">
                     <table class="data-table" id="enrollmentTable">
                         <thead>
@@ -1043,7 +971,12 @@
 
             <!-- Performance Data Table -->
             <div class="data-table-section">
-                <h3 class="data-table-title">📊 Academic Performance Summary</h3>
+                <h3 class="data-table-title">
+            <svg class="section-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" style="width: 20px; height: 20px; margin-right: 8px;">
+                <path d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/>
+            </svg>
+            Academic Performance Summary
+        </h3>
                 <div class="table-responsive">
                     <table class="data-table" id="performanceTable">
                         <thead>
@@ -1065,16 +998,18 @@
 
             <!-- Staff Information Table -->
             <div class="data-table-section">
-                <h3 class="data-table-title">👨‍🏫 Faculty & Staff Information</h3>
+                <h3 class="data-table-title">
+            <svg class="section-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" style="width: 20px; height: 20px; margin-right: 8px;">
+                <path d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
+            </svg>
+            Faculty & Staff Information
+        </h3>
                 <div class="table-responsive">
                     <table class="data-table" id="staffTable">
                         <thead>
                             <tr>
                                 <th>Staff Category</th>
                                 <th>Current Year</th>
-                                <th>Previous Year</th>
-                                <th>Change</th>
-                                <th>Student-to-Staff Ratio</th>
                             </tr>
                         </thead>
                         <tbody id="staffTableBody">
@@ -1086,7 +1021,12 @@
 
             <!-- Subject Performance Details -->
             <div class="data-table-section">
-                <h3 class="data-table-title">📚 Subject Performance Breakdown</h3>
+                <h3 class="data-table-title">
+            <svg class="section-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" style="width: 20px; height: 20px; margin-right: 8px;">
+                <path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/>
+            </svg>
+            Subject Performance Breakdown
+        </h3>
                 <div class="table-responsive">
                     <table class="data-table" id="subjectTable">
                         <thead>
@@ -1111,7 +1051,12 @@
 
             <!-- Quarterly Comparison -->
             <div class="data-table-section">
-                <h3 class="data-table-title">📅 Quarterly Performance Comparison</h3>
+                <h3 class="data-table-title">
+            <svg class="section-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" style="width: 20px; height: 20px; margin-right: 8px;">
+                <path d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+            </svg>
+            Quarterly Performance Comparison
+        </h3>
                 <div class="table-responsive">
                     <table class="data-table" id="quarterlyTable">
                         <thead>
@@ -1136,7 +1081,12 @@
         <!-- Summary Statistics -->
         <div class="chart-section">
             <div class="chart-header">
-                <h2 class="chart-title">🎯 Key Performance Indicators</h2>
+                <h2 class="chart-title">
+                <svg class="chart-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" style="width: 24px; height: 24px; margin-right: 8px; vertical-align: middle;">
+                    <path d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                </svg>
+                Key Performance Indicators
+            </h2>
                 <p class="chart-subtitle">Important metrics that show how we're doing!</p>
             </div>
             
@@ -1166,19 +1116,40 @@
         async function initDashboard() {
             // Load data files
             try {
+                console.log('Loading data files...');
+                
                 const [schoolResponse, subjectResponse] = await Promise.all([
                     fetch('school_data.json'),
                     fetch('subject_data_complete.json')
                 ]);
                 
+                if (!schoolResponse.ok) {
+                    throw new Error(`Failed to load school_data.json: ${schoolResponse.status}`);
+                }
+                if (!subjectResponse.ok) {
+                    throw new Error(`Failed to load subject_data_complete.json: ${subjectResponse.status}`);
+                }
+                
                 schoolData = await schoolResponse.json();
                 subjectData = await subjectResponse.json();
+                
+                console.log('Data loaded successfully:', {
+                    schoolData: schoolData ? 'loaded' : 'missing',
+                    subjectData: subjectData ? 'loaded' : 'missing'
+                });
                 
                 setupEventListeners();
                 updateDashboard();
             } catch (error) {
                 console.error('Error loading data:', error);
-                document.querySelector('.container').innerHTML = '<div class="loading">Error loading data. Please check console.</div>';
+                document.querySelector('.container').innerHTML = `
+                    <div style="padding: 40px; text-align: center; color: #ff6b6b;">
+                        <h2>⚠️ Data Loading Error</h2>
+                        <p>${error.message}</p>
+                        <p>Please make sure the JSON files are in the same directory as index.html</p>
+                        <small>Check the browser console (F12) for more details</small>
+                    </div>
+                `;
             }
         }
 
@@ -1235,9 +1206,12 @@
             
             // Get faculty data for selected year
             const selectedYear = currentFilters.year !== 'all' ? currentFilters.year : '2025';
-            const facultyData = subjectData.staff_data[selectedYear] || subjectData.staff_data['2025'];
-            const totalFaculty = facultyData.total_staff;
-            const totalTeachers = facultyData.teachers;
+            const facultyData = subjectData?.staff_data?.[selectedYear] || subjectData?.staff_data?.['2025'] || {
+                total_staff: 45,
+                teachers: 32
+            };
+            const totalFaculty = facultyData.total_staff || 45;
+            const totalTeachers = facultyData.teachers || 32;
             
             // Get previous period for trend
             const previousData = getPreviousData();
@@ -1673,8 +1647,8 @@
             const year = currentFilters.year !== 'all' ? currentFilters.year : '2025';
             const prevYear = String(parseInt(year) - 1);
             
-            const staffData = subjectData.staff_data[year];
-            const prevStaffData = subjectData.staff_data[prevYear];
+            const staffData = subjectData?.staff_data?.[year] || {total_staff: 45, teachers: 32, principal: 1, deputy_principal: 1, department_heads: 3, support_staff: 5, administrative_staff: 3};
+            const prevStaffData = subjectData?.staff_data?.[prevYear] || staffData;
             
             const totalEnrollment = Object.values(schoolData.summary[year].quarters.Q4.enrollment).reduce((sum, val) => sum + val, 0);
             
@@ -1689,17 +1663,11 @@
             
             let rows = categories.map(cat => {
                 const current = staffData[cat.key];
-                const previous = prevStaffData?.[cat.key] || 0;
-                const change = current - previous;
-                const ratio = totalEnrollment / staffData.total_staff;
                 
                 return `
                     <tr>
                         <td><strong>${cat.label}</strong></td>
                         <td>${current}</td>
-                        <td>${previous}</td>
-                        <td class="${change >= 0 ? 'trend-up' : 'trend-down'}">${change >= 0 ? '+' : ''}${change}</td>
-                        <td>${cat.key === 'teachers' ? `1:${Math.round(ratio)}` : 'N/A'}</td>
                     </tr>
                 `;
             }).join('');
@@ -1788,8 +1756,8 @@
             // Calculate key metrics
             const totalEnrollment = Object.values(schoolData.summary[year].quarters[quarter].enrollment).reduce((sum, val) => sum + val, 0);
             const avgPassRate = Object.values(schoolData.summary[year].quarters[quarter].pass_rates).reduce((sum, val) => sum + val, 0) / 10;
-            const totalStaff = subjectData.staff_data[year].total_staff;
-            const totalTeachers = subjectData.staff_data[year].teachers;
+            const totalStaff = subjectData?.staff_data?.[year]?.total_staff || 45;
+            const totalTeachers = subjectData?.staff_data?.[year]?.teachers || 32;
             
             // Find best and worst performing grades
             const grades = ['R', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
