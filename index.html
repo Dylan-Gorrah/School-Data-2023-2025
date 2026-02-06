@@ -632,8 +632,13 @@
             box-shadow: 0 4px 12px rgba(0, 191, 255, 0.15);
         }
 
+        .staff-icon {
+            margin-bottom: 8px;
+            color: var(--primary-blue);
+        }
+
         .staff-number {
-            font-size: 3rem;
+            font-size: 2.5rem;
             font-weight: 700;
             color: var(--primary-blue);
             margin-bottom: 8px;
@@ -1823,17 +1828,22 @@
             };
             
             const staffCategories = [
-                { key: 'total_staff', label: 'Total Staff Members', icon: '👥' },
-                { key: 'principal', label: 'Principal', icon: '👨‍🎓' },
-                { key: 'deputy_principal', label: 'Deputy Principal', icon: '👨‍🏫' },
-                { key: 'department_heads', label: 'Department Heads', icon: '👨‍💼' },
-                { key: 'support_staff', label: 'Support Staff', icon: '👷‍🔧' },
-                { key: 'administrative_staff', label: 'Administrative Staff', icon: '👥‍💼' }
+                { key: 'total_staff', label: 'Total Staff Members' },
+                { key: 'principal', label: 'Principal' },
+                { key: 'deputy_principal', label: 'Deputy Principal' },
+                { key: 'department_heads', label: 'Department Heads' },
+                { key: 'support_staff', label: 'Support Staff' },
+                { key: 'administrative_staff', label: 'Administrative Staff' }
             ];
             
             grid.innerHTML = staffCategories.map(category => `
                 <div class="staff-overview-card">
-                    <div class="staff-number">${category.icon} ${staffData[category.key]}</div>
+                    <div class="staff-icon">
+                        <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" style="width: 24px; height: 24px;">
+                            <path d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
+                        </svg>
+                    </div>
+                    <div class="staff-number">${staffData[category.key]}</div>
                     <div class="staff-label">${category.label}</div>
                     <div class="staff-description">${year === 'all' ? 'All Years' : `Academic Year ${year}`}</div>
                 </div>
